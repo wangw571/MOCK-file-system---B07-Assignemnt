@@ -1,0 +1,12 @@
+What did I do last time?
+    - learned about assignment requirements
+    - discussed connection between my task and teammates' tasks
+    - brainstormed design ideas with team for pwd command.
+    - implemented basic structure of pwd command 
+
+What do I plan to do now?
+    - finish part of pwd command which doesn't need to be based on MOCK and Command
+    - work on new tasks for sprint 2
+
+Am I blocked on anything?
+    - Need MOCK and Command to be completed before I can continue working on pwd

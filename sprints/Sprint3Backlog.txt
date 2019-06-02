@@ -1,0 +1,42 @@
+//Sprint 3 Backlog.  
+June 29 to July 2
+
+User Stories from Product Backlog that we will address in this sprint:
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to save the current working directory by pushing onto directory, stack and then changes the new current working directory by giving a relative path or a full path (Popd Pushd)
+b) As a user, I want to print out my recent commands, and truncate the output by specifying a non-negative number(History)
+c) As a user, my intention is to view subfile/folder as simple as possible, presenting the entire file relation as a tree, which every subfile/folder is at the right bottom of its parent, subfile/folder in the same level meaning they have a same parent(Tree)
+d) As a user, I want to view the list of files in the current working directory(Ls)
+e) As a user, I want to print documentation for specific commands(Man)
+
+
+a-1:(Ls) MOCK.getWorkingDir().GetFileNames(MOCK);---> Chris
+b-1:(Pushd) implement directory STACK (LIFO)  --->Kyle
+b-2:(Pushd) push current working directory to stack       --->Kyle
+b-3:(Pushd) using argument directory to call cd command       --->Kyle
+b-4:(Popd) return, pop from directory stack           ---> Kyle
+b-5:(Popd) using directory poped from directory stack call cd command          ---> Kyle
+c-1:(History) create an abstract data type: History       ---> Kevin
+c-2:(History) add print/log funtions to History       ---> Kevin
+c-3:(JShell) declare a History object and collect every command input      ---> Kevin
+d-1:(Man) get a command’s documentation and print it, according to user’s input        ---> Chris
+e-1:general errors, everyone’s duty
+f-1:(Tree) get all the directories under the root directory
+f-2:(Tree) get all the files in every directory
+f-3:(Tree) display the entire file system as a tree
+
+
+These tasks are assigned as follows:
+
+User: Zhifei Song
+Tasks: b-1~b-5, e-1
+
+User: Zijian Wang
+Tasks: a-1, d-1, e-1
+
+User: Qingtian Wang
+Tasks: f-1, f-2, e-1
+
+User: Xinzheng Xu
+Tasks: c-1~c-3, f-3, e-1

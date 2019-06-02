@@ -1,0 +1,8 @@
+Class name: Cat
+Parent class (if any): Command
+Responsibilities:
+		Print all content in a file, given in one or more argument. 
+		If multiple files were given, those contents will be displayed, 
+		concatenated in the shell by three line breaks
+Collaborators:
+	ManagementOfContainerKernel, ControllableFile, ControllableDirectory

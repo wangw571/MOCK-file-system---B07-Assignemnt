@@ -1,0 +1,8 @@
+Class name: CommandObject
+Parent class (if any): Object
+Responsibilities:
+	The class can be instantiated to an object, It's the bridge between the
+	JShel and Command, makes JShell can has-a Command class indirect, which
+	should not be done because Command is an abstract method
+Collaborators:
+	Command

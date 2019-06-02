@@ -1,0 +1,11 @@
+What did I do last time?
+    - implemented detailed structure of pwd command
+    - finished part of pwd command, collaborating with MOCK and Command
+    - created new sprint2 backlog with teammates
+
+What do I plan to do now?
+    - design new CRC Cards for new classes with teammates
+    - add print and log funtions to History command
+
+Am I blocked on anything?
+    - N/A

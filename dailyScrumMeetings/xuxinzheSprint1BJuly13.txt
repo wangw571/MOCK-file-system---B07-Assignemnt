@@ -1,0 +1,14 @@
+What did I do last time?
+	- learned about assignment requirements
+    - designed new CRC Cards for new classes with teammates
+    - created new sprint backlog and product backlog with teammates
+    - discussed connection between my task and teammates' tasks
+    - brainstormed design ideas with team for ! command.
+    - fixed bugs in History command class
+
+What do I plan to do now?
+    - finish part of ! command which doesn't need to work with JShell class
+    - handle errors
+
+Am I blocked on anything?
+    - wait for task g-1 to be completed

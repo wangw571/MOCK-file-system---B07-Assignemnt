@@ -1,0 +1,7 @@
+Class name: ControllableDirectory
+Parent class (if any): ControllableFile
+Responsibilities:
+	Specialist kind of MFile that holds other ControllableFile instances'
+	UUID and file name for organizing files in ManagementOfContainerKernel(Class Name) file system. 
+Collaborators:
+	ControllableFile, ManagementOfControllableDirectory, Command

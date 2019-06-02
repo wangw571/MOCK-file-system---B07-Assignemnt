@@ -1,0 +1,42 @@
+//Sprint 1 Backlog.
+July 10 to July 16
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to view the list of files in the current working directory, or a list of all subdirectories.
+b) As a user, I don't want to see any exception, only suitable message allowed
+c) As a user, I want to use redirection to capture the output of every command and redirect it to a file and no output is shown to me. But all errors are still displayed on the console.
+d) As a user, I want to move the item from an old path to a new path by giving relative paths or full paths
+e) As a user, I want to copy an item by duplicating the item and placing it in the new path. If it’s a directory, then copy all the contents in it.
+f) As a user, I want to get an item from a URL and save it to my current working directory
+g) As a user, I want to use an exclamation point following a number n to get the nth input in shell command history
+
+a-1. (Ls) Implement recursive methods to get all the subdirectories
+b-1. (Exception Classes) Build classes to be custom exceptions
+c-1. (Command) Provide a boolean method that try/catch the STD error and display the error message
+c-2. (Command) Provide a method that redirect STD output if c-1 method returns true
+c-3. (Command) Provide a method that creates the out file and give it a correct path
+d-1. (Mv) A command for users move a designated file/directory to another place
+d-2. (Mv) If designated file/directory or destination is not vaild, a proper error message will be shown. 
+d-3. (mv) If moving a directory, the files/directories under the given directory will also be moved recursively. 
+e-1. (Cp) A command for users copy a designated file/directory to a designated place without modifying the source. 
+e-2. (Cp) If designated file/directory or destination is not vaild, a proper error message will be shown. 
+e-3. (Cp) The new files/directories will obtain different UUIDs, and will be new independent instances. 
+f-1. (Curl) Provide a method that checks/reads/catches the URL
+f-2. (Curl) Provide a method to save the URL item content locally
+g-1. (JShell) Provide a method to call the ! command class
+g-2. (Ex) get the nth input in shell command history
+g-3 (Ex) print the nth input in shell command history
+
+These tasks are assigned as follows:
+
+User: Zhifei Song
+Tasks: c, f, g-1
+
+User: Zijian Wang
+Tasks:  b-1
+
+User: Qingtian Wang
+Tasks: a, d, e
+
+User: Xinzheng Xu
+Tasks: g-2, g-3

@@ -1,0 +1,184 @@
+==== A2 phase I marking ====
+
+This assignment is marked by TA (name and email):
+Bryan Tam, bryan.tam@mail.utoronto.ca
+
+Group number: 300
+UTORID usernames of members: songzhif, wangq150, wangz442, xuxinzhe
+Total deductions: -5
+Grade: B-
+
+The instructor has increased your assignment 2A letter grade by +2 and your new grade is: B+
+
+Your team's Phase II grade is based on this scale:
+
+    http://www.artsandscience.utoronto.ca/ofr/calendar/rules.htm#grading
+
+The way we graded is as follows: your team starts with an A+. When errors and
+problems are found, you will lose 0, 1, 2, or 3 letter steps, depending on the
+severity. As an example, if you lost two steps, your team would earn an A-:
+
+     A+ -> A
+     A -> A-
+
+You were asked to follow the Scrum process. A big part of that is to maintain
+a product backlog and a sprint backlog. 
+
+==== Product and Sprint backlogs ==== [up to -6]
+
+No deductions in this section.
+
+==== Java Style ==== [up to -6]
+
+No deductions in this section.
+
+
+==== Design ==== [up to -6]
+
+Several steps can be lost for these kinds of issues:
+
+    redirection doesn't easily incorporate new commands -2
+		* redirection logic is embedded in Echo
+		* which makes it harder to implement redirection to other commands
+
+==== Correctness ==== [up to -6]
+
+    Code doesn't compile without modification (if the fix is simple) -1
+		* There are some invalid UTF-8 characters in code which led to compilation error
+	    	[javac] /Users/bryan/Documents/Summer2018/CSCB07/Marking/Assignment2A/B07Summer2018Assignment2A/group_0300/Assignment2/src/command/Find.java:181: error: unmappable character for encoding UTF8
+	       [javac]     CommandObject.logLine("find <path> -type ��type> -name <name>");
+	       [javac]                                              ^
+	       [javac] /Users/bryan/Documents/Summer2018/CSCB07/Marking/Assignment2A/B07Summer2018Assignment2A/group_0300/Assignment2/src/command/Find.java:181: error: unmappable character for encoding UTF8
+	       [javac]     CommandObject.logLine("find <path> -type ��type> -name <name>");
+	       [javac]                                               ^
+	       [javac] /Users/bryan/Documents/Summer2018/CSCB07/Marking/Assignment2A/B07Summer2018Assignment2A/group_0300/Assignment2/src/command/Find.java:185: error: unmappable character for encoding UTF8
+	       [javac]         .logLine("��type> is f or d, f means file and d means directory, ");
+	       [javac]                   ^
+	       [javac] /Users/bryan/Documents/Summer2018/CSCB07/Marking/Assignment2A/B07Summer2018Assignment2A/group_0300/Assignment2/src/command/Find.java:185: error: unmappable character for encoding UTF8
+	       [javac]         .logLine("��type> is f or d, f means file and d means directory, ");
+	       [javac]                    ^
+	       [javac] 4 errors
+    
+	
+	[-2] We have deducted -1 for every three failing test cases. 
+	
+General comments: absolute path is not handled properly in many commands, except /
+	
+Failed testcases:
+1. ls multiple directories
+The output format is not following what specified in the handout,
+and the output of your program has no way to tell which part belongs to which folder.
+ 
+Input:
+mkdir /A
+mkdir /A/B
+mkdir /A/B/C
+ls A A/B
+ 
+Expected output:
+A:
+B
+ 
+A/B:
+C
+ 
+Actual output:
+B
+
+C
+
+
+2. cd absolute path
+
+Input:
+mkdir A
+cd /A
+
+Expected output:
+/# pwd
+/A
+
+Actual output:
+File:/A
+ does not exist!
+ 
+
+3. pushd absolute path
+
+Input:
+mkdir A
+pushd /A
+
+Expected output:
+/# pwd
+/A
+
+Actual output:
+directory not exist
+	
+
+4. pushd relative path with dots
+
+Input:
+mkdir A
+mkdir B
+cd A
+pushd ./B
+cd ..
+pushd ../A/B
+
+Expected:
+/#: pwd
+/A/B
+
+Actual:
+/#: pushd ./B
+directory not exist
+/#: pushd ../A/B
+directory not exist
+
+
+5. history with bad argument
+
+Input:
+history -100
+
+Expected output:
+Invalid command (or some similar error message)
+
+Actual output:
+(Prompted for new input without error produced)
+
+
+6. history with large number
+It should print all history if there is not that many available
+
+Input:
+history 100
+
+Expected output:
+1. mkdir A
+2. cd A
+...
+80. history 100
+
+Actual output:
+Only 80 commands are available, please try again
+
+
+7. find with absolute path
+
+Input:
+mkdir A
+cd A
+echo "Test" > target
+find /A -type f -name "target"
+
+Expected output:
+/A/target (or similar output)
+
+Actual output:
+find: File:/A
+ cannot be located!
+find: No result!
+

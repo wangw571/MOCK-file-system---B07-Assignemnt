@@ -1,0 +1,49 @@
+Each one of you is responsible for adding a file in this folder every three days with the
+following contents: Do not ask your colleague to commit for you. That won't count. 
+
+a) What did I work on last time? 
+	Redesign the JShell class:
+		Before JShell can only directly break down the input command and pass it directly to each 
+		command class, I think it is incomplete after communicating with the team members, it was 
+		decided that JShell should have its own format. Now JShell converted from one recursion 
+		function of 84 lines to a recursion function with only 23 lines plus initialization and 
+		checkVaildInput function.
+
+	Make the adjustment with other classes:
+		Before JShell only passed a string array to all command class's "execute" function, and 
+		after discussing with the team members, we decided to change the covert method of JShell, 
+		from only passing a string array to passing a MOCK object with an object array
+			The reason is that the team members working with the class cooperate with the file 
+			system found a pattern, each command class needs to create a MOCK object (this MOCK 
+			object cannot be shared with other command class). In order to reuse the code and let 
+			the file system work, I decided to create/hold it directly inside the Command, I 
+			create a none abstract function, this function stores a MOCK object and keeps it and 
+			share to every command class
+			
+			I also changed the number of argument for Execute function inside the (Command*) from 
+			one argument to two arguments because we must pass a MOCK object to other classes. 
+			The first idea was: 
+				change argument form Sting[] to Object[]
+				make the first element of Object array to MOCK, the rest is the string array like 
+				before
+			However, this method can be confusing and inefficient, so I did not use this method
+	
+	Those are the backlog from sprint 2 but I accidentally finished/covered in sprint 1:
+		i) As a user, I want my command to be identified no matter how many extra spaces I type in
+		j) As a user, I want to use keyboard input command by "command argument argument..." in 
+		that order
+
+
+b) What do I plan to work on now?  
+		Continue to adapt JShell to new command
+		b-1:(Pushd) implement directory STACK (LIFO)  --->Kyle
+		b-2:(Pushd) push current working directory to stack       --->Kyle
+		b-3:(Pushd) using arguement directory to call cd command       --->Kyle
+		b-4:(Popd) return, pop from directory stack           ---> Kyle
+		b-5:(Popd) using directory poped from directory stack call cd command          ---> Kyle
+		c-1:(History) create an abstract data type: History       ---> Kyle
+		c-3:(JShell/Command) declare a History object and listen/collect every command input
+
+
+c) Am I blocked on anything?  
+		N/A

@@ -1,0 +1,7 @@
+Class name: Command
+Parent class (if any): Object
+Subclasses (if any): Cat, Cd, Echo, Exit, Find, History, Ls, Mkdir, Popd, Pushd, Pwd, Tree
+Responsibilities:
+	Provide standard super class (abstract) for commands for other commands to receive arguments and execute
+Collaborators:
+	JShell, ManagementOfContainerKernel

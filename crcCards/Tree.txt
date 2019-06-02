@@ -1,0 +1,7 @@
+Class name: Tree
+Parent class (if any): Command
+Responsibilities:
+		Show all files/directories under root directory in a tree format. 
+		For every level of the tree, the name will be indent by a tab character.
+Collaborators:
+	ManagementOfContainerKernel, ControllableDirectory, ControllableFile

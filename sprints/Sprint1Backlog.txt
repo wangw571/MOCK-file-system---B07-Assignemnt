@@ -1,0 +1,48 @@
+//Sprint 1 Backlog.  
+June 15 to June 21
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to press enter to execute current line of command
+b) As a user, I want to quit the program
+c) As a user, I want to create a new directory by giving a relative path or a full path
+d) As a user, I want to change the current working directory to another directory by giving a relative path or a full path or '.' or '..'
+e) As a user, I want to print the whole path of the current working directory
+Specific tasks to be accomplished:
+
+a-1. (JShell) Begin coding the structure of the command line interpreter
+a-2. (JShell) Write the log system to communicate with the user using input string
+a-3. (JShell) Scanner read the user input (cooperate with exception class)
+a-4. (JShell) Exception handling
+a-5. (Command) Provide standard abstract super class for commands for other commands to receive arguments and execute. 
+b-1. (Command<-exit) End the JShell and terminate this program.
+c-1. (ManagementOfControllableKernel) Provide methods for reading a path return the directory instance. Exceptions will be throw out if path is not valid. 
+c-2. (ManagementOfControllableKernel) Provide methods changing current working directory to a designated directory.
+c-3. (ControllableFIie) File implementation of instances for ManagementOfControllableKernel(MOCK as short) File system, using byte stream to store data
+c-4. (ControllableFIie) Provide public methods for creating a file, with or without contents
+c-5. (ControllableFIie) Provide public methods for modifying a file
+c-6. (ControllableFIie<-ControllableDirectory) Directory implementation for MOCK File system, extends from ControllableFIle
+c-7. (ControllableFIle<-ControllableDirectory) Provide public methods for getting Files/Directories under a ControllableDirectory instance
+c-8. (ControllableFIle<-ControllableDirectory) Provide public methods for deleting Files/Directories instances under a ControllableDirectory instance
+c-9. (ManagementOfControllableKernel) Provide public methods for moving Files/Directories instances under a ControllableDirectory instance to another ControllableDirectory instance
+c-10. (ManagementOfControllableKernel) store current working directory, and provide a method for users to change/read it
+c-11. (ManagementOfControllableKernel) Provide methods for creating a new directory under current working directory.
+d-1. (Command<-cd) Using MOCK File system to check and change current working directory, path provided by user
+
+e-1. (Command<-echo) Write content, provided by user, to a designated output, console output(JShell) by default.
+e-2. (Command<-pwd) Using MOCK File system's method to get current working directory.
+e-3. (Command<-pwd) Print current working directory to a designated output, and console output(JShell) by default.
+
+These tasks are assigned as follows:
+
+User: Zhifei Song
+Tasks: a-1 ~ a-5, b1, c1, c2, c10, c11
+
+User: Zijian Wang
+Tasks: d-1, e-1
+
+User: Qingtian Wang
+Tasks: c-1 ~ c-11
+
+User: Xinzheng Xu
+Tasks: e-2, e-3

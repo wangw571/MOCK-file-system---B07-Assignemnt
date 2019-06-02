@@ -1,0 +1,6 @@
+Class name: Cd
+Parent class (if any): Command
+Responsibilities:
+	Change the current working directory to the argument that represents the new directory
+Collaborators:
+	ManagementOfContainerKernel, ControllableDirectory

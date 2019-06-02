@@ -1,0 +1,7 @@
+Class name: FileWithSameNameExistedException
+Parent class (if any): Exception
+Responsibilities:
+	Indicates an exception when a file is going to be created while a file with 
+	same name already exists in the designated directory. 
+Collaborators:
+	ManagementOfContainerKernel

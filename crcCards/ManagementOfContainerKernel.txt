@@ -1,0 +1,6 @@
+Class name: ManagementOfContainerKernel
+Responsibilities:
+	Provide a file managing interface.
+	Allow file operations by JShell commands. 
+Collaborators:
+	Command, ControllableFile, ControllableDirectory

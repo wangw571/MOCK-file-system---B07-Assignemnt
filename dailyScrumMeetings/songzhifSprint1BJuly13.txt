@@ -1,0 +1,15 @@
+Each one of you is responsible for adding a file in this folder every three days with the
+following contents: Do not ask your colleague to commit for you. That won't count. 
+
+a) What did I work on last time? 
+	c-1:(Command) Provide a boolean method that try/catch the STD error and display the error message
+	c-2:(Command) Provide a method that redirects STD output if the c-1 method returns true
+	c-3:(Command) Provide a method that creates the out file and gives it a correct path
+
+b) What do I plan to work on now?
+	f-1. (Curl) Provide a method that checks/read/catches the URL
+	f-2. (Curl) Provide a method save the URL item content locally
+	g-1. (JShell) Provide a method to call the ! command class
+
+c) Am I blocked on anything?  
+	N/A

@@ -1,0 +1,7 @@
+Class name: JShell
+Parent class (if any): Object
+Responsibilities:
+	Write the log system to communicate with the user using input string
+	Scanner read the user input (cooperate with exception class)
+Collaborators:
+	CommandObject

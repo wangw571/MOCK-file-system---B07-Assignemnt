@@ -1,0 +1,58 @@
+//Sprint 2 Backlog.  
+June 22 to June 28
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to view the list of files in the current working directory
+b) As a user, I want to save the current working directory by pushing onto directory, stack and then changes the new current working directory by giving a relative path or a full path 
+c) As a user, I want to print out my recent commands, and truncate the output by specifying a non-negative number
+d) As a user, I want to display the contents of files by giving relative paths or full paths 
+e) As a user, I want to print a string on the shell, or put the string in an existent or nonexistent file, or append the string to an existent or nonexistent file, by giving a relative path or a full path
+f) As a user, I want to print documentation for specific commands
+g) As a user, I want to use absolute path whenever I want to read or modify a file/folder
+h) As a user, I don't want to see any exception, only suitable message allowed
+i) As a user, I want my command to be identified no matter how many extra spaces I type in
+j) As a user, I want to use keyboard input command by "command argument argument..." in that order
+k)As a user, I want to find item(s) by using path(s) with given file name and file type 
+l) As an user, my intention is to view subfile/folder as simple as possible, presenting the entire file relation as a tree, which every subfile/folder is at the right bottom of its parent, subfile/folder in the same level meaning they have a same parent
+m) As an user,  I want to use a command to create a directory, using absolute path or relative path. 
+
+
+a-1:(Ls) MOCK.getWorkingDir().GetFileNames(MOCK);---> Chris
+b-1:(Pushd) implement directory STACK (LIFO)  --->Kyle
+b-2:(Pushd) push current working directory to stack       --->Kyle
+b-3:(Pushd) using arguement directory to call cd command       --->Kyle
+b-4:(Popd) return, pop from directory stack           ---> Kyle
+b-5:(Popd) using directory poped from directory stack call cd command          ---> Kyle
+c-1:(History) create an abstract data type: History       ---> Kyle
+c-2:(History) add print/log funtion to History       ---> Kevin
+c-3:(JShell/Command) declare a History object and listen/collect every command input
+d-1:(Command<-Cat) Print a file’s content on standard output. 
+d-2:(Command<-Cat) When multiple files were given, their content will be printed on screen. 
+d-3:(Command<-Cat) When exceptions, such as file not found or invalid file content, happened, message will be printed on screen but the process of printing files on screen will not be stopped. 
+e-1:(Command<-Echo) Print String to a designated output, standard output as default. 
+e-2:(Command<-Echo) When redirect was required (by using >), overwrite/ create a new file and write String into the file, path will be given by the user after the redirection symbol. 
+e-3:(Command<-Echo) When redirect appending was required (by using >>), append/ create a new file and write String into the file, path will be given by the user after the redirection symbol. 
+f-1:(man) Get a command’s documentation and print it, according to user’s input        ---> Chris
+g-1:already done 
+h-1:general errors, people’s duty
+i-1:(JShell) Kyle’s job, done
+j-1:(JShell) Kyle’s job, done
+k-1:(Command<-Find) Print all file/directory name that matches a given name under a given directory path. 
+k-1:(Command<-Find) The file name and the desired type must be given.
+k-1:(Command<-Find) Multiple path can be accepted. 
+l-1:(Tree) 
+m-1:(Mkdir) Create a directory following user given path. If that path is not valid or a file/directory with same name already exists, display an appropriate message. 
+
+These tasks are assigned as follows:
+
+User: Zhifei Song
+Tasks: b-1~b-5, c-3, h-1, i-1, j-1
+
+User: Zijian Wang
+Tasks: e-1 f-1, a-1, h-1
+
+User: Qingtian Wang
+Tasks: d e k m
+
+User: Xinzheng Xu
+Tasks: c-2, h-1

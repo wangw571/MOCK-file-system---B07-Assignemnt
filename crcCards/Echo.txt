@@ -1,0 +1,7 @@
+Class name: Echo
+Parent class (if any): Command
+Responsibilities:
+	Print the content of an argument
+	If redirection is given, the argument will not be printed, but append/write to redirected output
+Collaborators:
+	ManagementOfContainerKernel, ControllableFile

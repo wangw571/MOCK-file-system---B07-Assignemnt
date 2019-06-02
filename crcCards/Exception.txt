@@ -1,0 +1,7 @@
+Class name: Exception
+Parent class (if any):
+Subclasses (if any): ubIrregularInputException, InvalidFileNameException, FileWithSameNameExistedException, NoSuchFileException
+Responsibilities:
+	Indicates every exception during the execution of the program
+Collaborators:
+	ManagementOfContainerKernel

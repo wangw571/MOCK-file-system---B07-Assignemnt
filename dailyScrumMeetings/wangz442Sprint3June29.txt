@@ -1,0 +1,18 @@
+What did I do last time?
+   - finish ls, man
+   - designed new CRC cards for exception
+   - sprint3 backlog
+   
+What do I plan to do now?
+   - I finished man in a somehow time consuming way which is not efficient, I should find some way
+     more efficient
+     
+   - add general error. Task e-1
+     
+   - cooperate with team mates for sprint 3
+     1. History
+     2. FInd 
+     3. Tree
+   
+Am I blocked on anything?
+     N/A

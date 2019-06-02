@@ -1,0 +1,7 @@
+Class name: IrregularInputException
+Parent class (if any): Exception
+Responsibilities:
+	Indicates an exception when a directory path is trying to be located but the
+	 path is not regular for locating. 
+Collaborators:
+	ManagementOfContainerKernel

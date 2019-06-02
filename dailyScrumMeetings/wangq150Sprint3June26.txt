@@ -1,0 +1,14 @@
+What did I do last time?
+    - Finished cat, echo, mkdir and find command
+    - Created CRC cards fir exceptions
+    - Fixed some minor warnings in code
+    - Commented my code
+    - Improved MOCK's implementation. 
+    
+
+What do I plan to do now?
+    - More comments and javadocs
+    - Help my team mates finish their commands
+
+Am I blocked on anything?
+    - I need to wait for my teammate to complete their basic structure of their code. 

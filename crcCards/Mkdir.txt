@@ -1,0 +1,6 @@
+Class name: Mkdir
+Parent class (if any): Command
+Responsibilities:
+	Creates a directory, name and path by a argument. Multiple path is acceptable by creating multiple directories.
+Collaborators:
+	ManagementOfContainerKernel

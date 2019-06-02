@@ -1,0 +1,10 @@
+Class name: History
+Parent class (if any): Command
+Responsibilities:
+	This class will print the history of commands executed in JShell, The first column is
+		numbered such that the line with the highest number is the most recent
+		command. The most recent command is history. The second column contains
+		the actual command. Commands that were not successfully executed will also be displayed.
+	If number is given, a truncated history will be output, whereas the last numbers of commands will be printed. 
+Collaborators:
+    JShell

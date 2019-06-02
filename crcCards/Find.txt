@@ -1,0 +1,6 @@
+Class name: Find
+Parent class (if any): Command
+Responsibilities:
+		Show files/directories that matches exactly same name given under given path/ paths. 
+Collaborators:
+	ManagementOfContainerKernel, ControllableDirectory, ControllableFile

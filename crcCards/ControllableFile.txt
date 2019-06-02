@@ -1,0 +1,7 @@
+Class name: ControllableFile
+Subclasses (if any): ControllableDirectory
+Responsibilities:
+	Hold file instances for ManagementOfContainerKernel(Class Name) file system.
+	Obtains a UUID, a file name and its parent directory, holds contents.  
+Collaborators:
+	ControllableDirectory, ManagementOfContainerKernel, Command

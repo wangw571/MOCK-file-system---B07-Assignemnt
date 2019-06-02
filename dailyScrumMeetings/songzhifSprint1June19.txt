@@ -1,0 +1,20 @@
+Each one of you is responsible for adding a file in this folder every three days with the following contents: Do not ask your colleague to commit for you. That won't count. 
+
+a) What did I work on last time? 
+	Finished:
+		Because of the requirements of sprint1, I completed the following things and added comments
+		a-1. (JShell) Begin coding the structure of the command line interpreter
+		a-2. (JShell) Write the log system to communicate with the user using input string
+		a-3. (JShell) Scanner read the user input (cooperate with exception class)
+
+b) What do I plan to work on now?  
+		a-4. (JShell) Exception handling
+		Because I accidentally mixed exception handling part in the a-1 ~ a-3 part but a-4 is an Exception class I needed to do
+		So I didn't create an exception class separately
+		the next thing I need to do is to remove the part from the main function that checks user's input is whether valid or not and put it into a separate class, summarize the world is: delete mixing code, create a separate method/ class
+
+c) Am I blocked on anything?  
+		Creating a method can make my program run faster, but the range of this function will become limited
+		Create a class can avoid code reuse
+
+		Choosing method/class depends on the results of my interaction with other members today. I need to communicate with them because I'm not allowed to create new files(because the plan already set at this point) because not written exception class as a public class into JShell.java which could make other groups I feel troubled

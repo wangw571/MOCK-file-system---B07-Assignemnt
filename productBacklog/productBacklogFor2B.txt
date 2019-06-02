@@ -1,0 +1,52 @@
+Backlog Item                                                                    Estimate(hrs)
+1	As a user, I want to press enter to execute current line of command             0
+2	As a user, I want to quit the program                                       	0
+3	As a user, I want to change the current working directory to another        	0
+	directory by giving a relative path or a full path or . or ..               
+4	As a user, I want to print the whole path of the current working directory  	0
+5	As a user, I want to create a new directory by giving a relative path or    	0
+	a full path                                                         
+6	As a user, I want to view the list of files in the current working          	5
+    directory, or a list of all subdirectories.                                                                                                                    
+7	As a user, I want to save the current working directory by pushing onto     	0
+    directory stack and then changes the new current working directory
+    by giving a relative path or a full path                 
+8	As a user, I want to print out my recent commands, and truncate the output  	0
+    by specifying a non-negative number                                                                                                           
+9	As a user, I want to display the contents of files by giving relative paths 	0
+	or full paths. For any file that contains invalid path, I want to see an 
+	appropriate error for that file. All other valid paths must still be shown 
+	on the console.                                                             
+10	As a user, I want to print a string on the shell, or put the string in an   	0
+	existent or nonexistent file, or append the string to an existent or 
+	nonexistent file, by giving a relative path or a full path     
+11	As a user, I want to print documentation for specific commands              	0
+12	As a user, I want to use absolute path whenever I want to read or modify a  	0
+	file/folder
+13	As a user, I don't want to see any exception, only suitable message allowed 	5
+14	As a user, I want my command to be identified no matter how many extra      	0
+	spaces I type in
+15	As a user, I want to use keyboard input command by "command argument        	0
+	argument..." in that order             
+16	As a user, I want to find item(s) by using path(s) with given file name     	0
+	and file type
+17	As a user, my intention is to view subfile/folder as simple as possible,    	0
+	presenting the entire file relation as a tree, which every subfile/folder is 
+	at the right bottom of its parent, subfile/folder in the same level meaning 
+	they have a same parent                                                    
+18	As a user, I want to use redirection to capture the output of every command 	5
+	and redirect it to a file and no output is shown to me. But all errors are 
+	still displayed on the console.
+20	As a user, I want to move the item from an old path to a new path by giving 	5
+	relative paths or full paths                                                 
+21	As a user, I want to copy an item by duplicating the item and placing it in 	5
+	the new path. If it’s a directory, then copy all the contents in it.        
+22	As a user, I want to get an item from a URL and save it to my current       	5
+	working directory
+23	As a user, I want to use an exclamation point following a number n to get   	5
+	the nth input in shell command history
+24	As a user, I want to search for text by a regular expression from a file or 	24
+	all the files in a directory. I want to get the matching lines in the files. 
+	For more than one file, lines will be displayed to me in the following way: 
+	the path to the file (including the filename), then a colon, then the line 
+	that contained the regular expression.                                      

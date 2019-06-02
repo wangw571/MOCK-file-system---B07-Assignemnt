@@ -1,0 +1,13 @@
+What did I do last time?
+    - Fixed Bugs from previous version
+    - Finished move / copy / ls
+    - Improved MOCK file system
+    
+
+What do I plan to do now?
+    - More comments
+    - Help constructing redirection
+    - Clean up redirection in echo
+
+Am I blocked on anything?
+    - Kyle's command

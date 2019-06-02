@@ -1,0 +1,6 @@
+Class name: Exit
+Parent class (if any): Command
+Responsibilities:
+	Terminates the JShell
+Collaborators:
+    N/A

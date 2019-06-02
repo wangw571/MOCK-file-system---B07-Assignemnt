@@ -1,0 +1,14 @@
+What did I do last time?
+    - Developed the MOCK file system
+    - Helped Chris completed echo
+    - Discussed with my teammates on how to use my MOCK file system's methods
+    - Developed a prototype of cat
+    - Helped Kyle to develop JShell and Command and the way of implementation.
+
+What do I plan to do now?
+    - Finish commands that were assigned to me
+    - improve more CRC Cards
+    - Direct my teammates for implementing commands, again
+
+Am I blocked on anything?
+    - Nope, nada

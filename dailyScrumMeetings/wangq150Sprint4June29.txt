@@ -1,0 +1,13 @@
+What did I do last time?
+    - Javadocs
+    - Removed many warnings
+    - Finished find command
+    
+
+What do I plan to do now?
+    - More comments
+    - Clean up the whole thing
+    - Get ready to hand in
+
+Am I blocked on anything?
+    - Nah

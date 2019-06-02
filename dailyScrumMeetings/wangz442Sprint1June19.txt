@@ -1,0 +1,13 @@
+What did I do last time?
+   - brainstormed design ideas with team for cd and echo commands.
+   - design the crc cards with team members
+   - extend from team members' command
+   - almost finish the whole body of cd
+
+What do I plan to do now?
+   - add interface with FIlE System
+   - start new tasks for sprint 2
+   - need to finish the Echo function ASAP
+
+Am I blocked on anything?
+   - need access to MOCK File system to check the working directory for cd

@@ -1,0 +1,13 @@
+What did I do last time?
+    - learned about assignment requirements
+    - discussed how the file system should work like
+    - completed prototype of MOCK file system and committed it
+    - discussed how Command super class
+
+What do I plan to do now?
+    - wait for Kyle to improve file system's design
+    - improve CRC Cards
+    - Direct my teammates for implementing commands
+
+Am I blocked on anything?
+    - Need MOCK to be completed by kyle for ControllableFile and ControllableDirectory to utilize

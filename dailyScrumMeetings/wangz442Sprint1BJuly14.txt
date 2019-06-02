@@ -1,0 +1,12 @@
+What did I do last time?
+    - My task for sprint1: (Exception Classes) Build classes to custom exceptions
+   	  refer on the slides on exception
+   	- design custom exception class
+
+What do I plan to do now?
+    - I need to talk with the other 3 teammates who already finished the class on
+      how to write the exception cases
+    - Build interface on exception solution for each class
+
+Am I blocked on anything?
+    - N/A

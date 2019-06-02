@@ -1,0 +1,1393 @@
++++ASSIGNMENT2 TEAM MEMBER CONTRIBUTION+++
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT1+++
+Redirecting to URL 'https://markus.utsc.utoronto.ca/svn/cscb07s18/group_0300/Assignment2':
+A    Assignment2/crcCards
+A    Assignment2/dailyScrumMeetings
+A    Assignment2/productBacklog
+A    Assignment2/sprints
+A    Assignment2/dailyScrumMeetings/songzhifSprint1June19.txt
+A    Assignment2/dailyScrumMeetings/songzhifSprint2June26.txt
+A    Assignment2/dailyScrumMeetings/wangq150Sprint1June19.txt
+A    Assignment2/dailyScrumMeetings/wangq150Sprint3June26.txt
+A    Assignment2/dailyScrumMeetings/wangz442Sprint2June22
+A    Assignment2/dailyScrumMeetings/xuxinzheSprint1June19.txt
+A    Assignment2/dailyScrumMeetings/xuxinzheSprint3June29.txt
+A    Assignment2/sprints/Sprint1Backlog.txt
+A    Assignment2/src
+A    Assignment2/src/command
+A    Assignment2/crcCards/Cat.txt
+A    Assignment2/crcCards/Cd.txt
+A    Assignment2/crcCards/Command.txt
+A    Assignment2/crcCards/CommandObject.txt
+A    Assignment2/crcCards/ControllableDirectory.txt
+A    Assignment2/crcCards/ControllableFile.txt
+A    Assignment2/src/command/Cat.java
+A    Assignment2/sprints/readMeSprints.txt
+A    Assignment2/src/command/CommandObject.java
+A    Assignment2/src/command/History.java
+A    Assignment2/dailyScrumMeetings/wangz442Sprint1June19.txt
+A    Assignment2/dailyScrumMeetings/wangz442Sprint3June29.txt
+A    Assignment2/dailyScrumMeetings/xuxinzheSprint2June26.txt
+A    Assignment2/productBacklog/readMeProductBacklog.txt
+A    Assignment2/sprints/Sprint3Backlog.txt
+A    Assignment2/src/driver
+A    Assignment2/src/fileSystem
+A    Assignment2/src/command/Echo.java
+A    Assignment2/src/command/Ls.java
+A    Assignment2/src/command/Command.java
+A    Assignment2/crcCards/Echo.txt
+A    Assignment2/crcCards/Exception.txt
+A    Assignment2/crcCards/Exit.txt
+A    Assignment2/crcCards/FileWithSameNameExistedException.txt
+A    Assignment2/crcCards/Find.txt
+A    Assignment2/crcCards/History.txt
+A    Assignment2/src/test
+A    Assignment2/src/command/Popd.java
+A    Assignment2/src/command/Find.java
+A    Assignment2/src/command/Mkdir.java
+A    Assignment2/src/command/Tree.java
+A    Assignment2/src/command/Pushd.java
+A    Assignment2/src/fileSystem/ControllableDirectory.java
+A    Assignment2/src/fileSystem/IrregularInputException.java
+A    Assignment2/src/test/CFileTest.java
+A    Assignment2/src/driver/JShell.java
+A    Assignment2/src/fileSystem/InvalidFileNameException.java
+A    Assignment2/src/test/CDirectoryTest.java
+A    Assignment2/src/test/Test1.java
+A    Assignment2/crcCards/InvalidFileNameException.txt
+A    Assignment2/crcCards/IrregularInputException.txt
+A    Assignment2/crcCards/JShell.txt
+A    Assignment2/crcCards/Ls.txt
+A    Assignment2/crcCards/ManagementOfContainerKernel.txt
+A    Assignment2/crcCards/Mkdir.txt
+A    Assignment2/src/fileSystem/FileWithSameNameExistedException.java
+A    Assignment2/src/fileSystem/NoSuchFileExistException.java
+A    Assignment2/src/test/PushdPopdTest.java
+A    Assignment2/readMeAssignment2A.txt
+A    Assignment2/src/test/Test2.java
+A    Assignment2/crcCards/NoSuchFileExistException.txt
+A    Assignment2/crcCards/Popd.txt
+A    Assignment2/crcCards/Pushd.txt
+A    Assignment2/crcCards/Pwd.txt
+A    Assignment2/crcCards/Tree.txt
+A    Assignment2/crcCards/readMeForCrcCards.txt
+A    Assignment2/dailyScrumMeetings/readMeDailyScrumMeetings.txt
+A    Assignment2/dailyScrumMeetings/songzhifSprint2June22.txt
+A    Assignment2/dailyScrumMeetings/songzhifSprint3June29.txt
+A    Assignment2/dailyScrumMeetings/wangq150Sprint2June22.txt
+A    Assignment2/dailyScrumMeetings/wangq150Sprint4June29.txt
+A    Assignment2/dailyScrumMeetings/wangz442Sprint2June26
+A    Assignment2/dailyScrumMeetings/xuxinzheSprint2June22.txt
+A    Assignment2/productBacklog/productBacklogFor2A.txt
+A    Assignment2/sprints/Sprint2Backlog.txt
+A    Assignment2/src/command/Cd.java
+A    Assignment2/src/command/Exit.java
+A    Assignment2/src/command/Man.java
+A    Assignment2/src/command/Pwd.java
+A    Assignment2/src/fileSystem/ControllableFile.java
+A    Assignment2/src/fileSystem/ManagementOfContainerKernel.java
+A    Assignment2/src/test/MOCKTest.java
+A    Assignment2/src/test/Test3.java
+Checked out revision 293.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+Marks Deductions here (-.5 max): 
+------------------------------------------------------------------------
+r293 | wangq150@UTORONTO.CA | 2018-07-02 23:45:43 -0400 (Mon, 02 Jul 2018) | 1 line
+
+CFileTest completed --wangq150
+------------------------------------------------------------------------
+r292 | songzhif@UTORONTO.CA | 2018-07-02 23:34:32 -0400 (Mon, 02 Jul 2018) | 1 line
+
+package reconnect
+------------------------------------------------------------------------
+r291 | wangq150@UTORONTO.CA | 2018-07-02 23:33:22 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Controllable Directory J unit test --wangq150
+------------------------------------------------------------------------
+r290 | wangq150@UTORONTO.CA | 2018-07-02 23:17:33 -0400 (Mon, 02 Jul 2018) | 1 line
+
+MOCKTest Done --wangq150
+------------------------------------------------------------------------
+r289 | songzhif@UTORONTO.CA | 2018-07-02 23:10:27 -0400 (Mon, 02 Jul 2018) | 1 line
+
+remove comment
+------------------------------------------------------------------------
+r288 | wangq150@UTORONTO.CA | 2018-07-02 23:10:23 -0400 (Mon, 02 Jul 2018) | 3 lines
+
+MOCKTest completion
+Find fix
+--wangq150
+------------------------------------------------------------------------
+r287 | songzhif@UTORONTO.CA | 2018-07-02 23:09:20 -0400 (Mon, 02 Jul 2018) | 1 line
+
+make the basic test case
+------------------------------------------------------------------------
+r286 | xuxinzhe@UTORONTO.CA | 2018-07-02 23:07:29 -0400 (Mon, 02 Jul 2018) | 1 line
+
+final version of JShell
+------------------------------------------------------------------------
+r285 | wangq150@UTORONTO.CA | 2018-07-02 23:05:08 -0400 (Mon, 02 Jul 2018) | 1 line
+
+ls fix 2 --wangq150
+------------------------------------------------------------------------
+r284 | wangq150@UTORONTO.CA | 2018-07-02 23:01:17 -0400 (Mon, 02 Jul 2018) | 1 line
+
+print a no result message for find. --wangq150
+------------------------------------------------------------------------
+r283 | wangq150@UTORONTO.CA | 2018-07-02 22:51:10 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fixing ls --wangq150
+------------------------------------------------------------------------
+r282 | songzhif@UTORONTO.CA | 2018-07-02 22:41:53 -0400 (Mon, 02 Jul 2018) | 1 line
+
+changed the log string
+------------------------------------------------------------------------
+r281 | wangq150@UTORONTO.CA | 2018-07-02 22:40:52 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Moved MOCKtest to test
+------------------------------------------------------------------------
+r280 | xuxinzhe@UTORONTO.CA | 2018-07-02 22:37:00 -0400 (Mon, 02 Jul 2018) | 1 line
+
+final version of mkdir popd pushd and tree classes
+------------------------------------------------------------------------
+r279 | wangz442@UTORONTO.CA | 2018-07-02 22:33:12 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc for mkdir 
+------------------------------------------------------------------------
+r278 | wangz442@UTORONTO.CA | 2018-07-02 22:29:49 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc for ls
+------------------------------------------------------------------------
+r277 | songzhif@UTORONTO.CA | 2018-07-02 22:28:35 -0400 (Mon, 02 Jul 2018) | 1 line
+
+format the JShell
+------------------------------------------------------------------------
+r276 | wangz442@UTORONTO.CA | 2018-07-02 22:27:46 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add some java doc for history
+------------------------------------------------------------------------
+r275 | songzhif@UTORONTO.CA | 2018-07-02 22:27:16 -0400 (Mon, 02 Jul 2018) | 1 line
+
+create a crc card for CommandObject
+------------------------------------------------------------------------
+r274 | wangz442@UTORONTO.CA | 2018-07-02 22:25:52 -0400 (Mon, 02 Jul 2018) | 1 line
+
+edit student information to be consistent
+------------------------------------------------------------------------
+r273 | wangq150@UTORONTO.CA | 2018-07-02 22:24:28 -0400 (Mon, 02 Jul 2018) | 1 line
+
+JUnittest creation --wangq150
+------------------------------------------------------------------------
+r272 | songzhif@UTORONTO.CA | 2018-07-02 22:21:46 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add Javadoc on instance vars
+------------------------------------------------------------------------
+r271 | songzhif@UTORONTO.CA | 2018-07-02 22:20:53 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add the Javadoc on instance vars
+------------------------------------------------------------------------
+r270 | wangz442@UTORONTO.CA | 2018-07-02 22:17:51 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc and format the code
+------------------------------------------------------------------------
+r269 | wangz442@UTORONTO.CA | 2018-07-02 22:02:50 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add student information
+------------------------------------------------------------------------
+r268 | xuxinzhe@UTORONTO.CA | 2018-07-02 22:01:23 -0400 (Mon, 02 Jul 2018) | 1 line
+
+final version of pwd class
+------------------------------------------------------------------------
+r267 | songzhif@UTORONTO.CA | 2018-07-02 21:41:55 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add the comment for the class
+------------------------------------------------------------------------
+r266 | wangz442@UTORONTO.CA | 2018-07-02 21:18:28 -0400 (Mon, 02 Jul 2018) | 1 line
+
+edit command collaborator
+------------------------------------------------------------------------
+r265 | songzhif@UTORONTO.CA | 2018-07-02 21:16:12 -0400 (Mon, 02 Jul 2018) | 1 line
+
+change the log method, move the log to CommandObject
+------------------------------------------------------------------------
+r264 | songzhif@UTORONTO.CA | 2018-07-02 21:10:06 -0400 (Mon, 02 Jul 2018) | 1 line
+
+change the log method
+------------------------------------------------------------------------
+r263 | songzhif@UTORONTO.CA | 2018-07-02 20:41:21 -0400 (Mon, 02 Jul 2018) | 1 line
+
+encapsulation the JShell class
+------------------------------------------------------------------------
+r262 | songzhif@UTORONTO.CA | 2018-07-02 20:30:19 -0400 (Mon, 02 Jul 2018) | 1 line
+
+fix the calling problem because the cmdList is moved
+------------------------------------------------------------------------
+r261 | wangq150@UTORONTO.CA | 2018-07-02 20:29:11 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Due to renaming in file system, things in commands also need to be updated -- wangq150
+------------------------------------------------------------------------
+r260 | wangq150@UTORONTO.CA | 2018-07-02 20:28:06 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Formatting and commenting for file system --wangq150
+------------------------------------------------------------------------
+r259 | songzhif@UTORONTO.CA | 2018-07-02 20:27:30 -0400 (Mon, 02 Jul 2018) | 1 line
+
+break down the class
+------------------------------------------------------------------------
+r258 | songzhif@UTORONTO.CA | 2018-07-02 19:53:21 -0400 (Mon, 02 Jul 2018) | 2 lines
+
+finish comment the convertCommand method
+
+------------------------------------------------------------------------
+r257 | wangz442@UTORONTO.CA | 2018-07-02 18:37:33 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc for cat command
+------------------------------------------------------------------------
+r256 | wangz442@UTORONTO.CA | 2018-07-02 18:31:13 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc
+------------------------------------------------------------------------
+r255 | wangz442@UTORONTO.CA | 2018-07-02 18:27:44 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc
+------------------------------------------------------------------------
+r254 | wangz442@UTORONTO.CA | 2018-07-02 18:27:28 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc
+------------------------------------------------------------------------
+r253 | wangq150@UTORONTO.CA | 2018-07-02 18:18:11 -0400 (Mon, 02 Jul 2018) | 1 line
+
+javadoc for find and mkdir --wangq150
+------------------------------------------------------------------------
+r252 | wangz442@UTORONTO.CA | 2018-07-02 18:17:21 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc
+------------------------------------------------------------------------
+r251 | xuxinzhe@UTORONTO.CA | 2018-07-02 18:15:27 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added documentation and examples to pwd class
+------------------------------------------------------------------------
+r250 | wangq150@UTORONTO.CA | 2018-07-02 18:12:24 -0400 (Mon, 02 Jul 2018) | 1 line
+
+man comment --wangq150
+------------------------------------------------------------------------
+r249 | songzhif@UTORONTO.CA | 2018-07-02 18:11:33 -0400 (Mon, 02 Jul 2018) | 1 line
+
+change the case of the variable
+------------------------------------------------------------------------
+r248 | wangz442@UTORONTO.CA | 2018-07-02 18:10:47 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc
+------------------------------------------------------------------------
+r247 | wangz442@UTORONTO.CA | 2018-07-02 18:06:13 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add comment and java doc
+------------------------------------------------------------------------
+r246 | songzhif@UTORONTO.CA | 2018-07-02 18:03:10 -0400 (Mon, 02 Jul 2018) | 1 line
+
+finish the manual
+------------------------------------------------------------------------
+r245 | songzhif@UTORONTO.CA | 2018-07-02 18:02:10 -0400 (Mon, 02 Jul 2018) | 1 line
+
+correct the syntax error
+------------------------------------------------------------------------
+r244 | wangz442@UTORONTO.CA | 2018-07-02 17:59:54 -0400 (Mon, 02 Jul 2018) | 1 line
+
+factor the code
+------------------------------------------------------------------------
+r243 | xuxinzhe@UTORONTO.CA | 2018-07-02 17:59:26 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added documentation and examples to History class
+------------------------------------------------------------------------
+r242 | wangz442@UTORONTO.CA | 2018-07-02 17:57:42 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc and comment
+------------------------------------------------------------------------
+r241 | wangz442@UTORONTO.CA | 2018-07-02 17:40:19 -0400 (Mon, 02 Jul 2018) | 1 line
+
+edit the comment
+------------------------------------------------------------------------
+r240 | xuxinzhe@UTORONTO.CA | 2018-07-02 17:32:03 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added detailed ducumentation and examples to Tree class
+------------------------------------------------------------------------
+r239 | wangq150@UTORONTO.CA | 2018-07-02 17:26:04 -0400 (Mon, 02 Jul 2018) | 2 lines
+
+renamed some variable names so it starts with lower case --wangq150
+
+------------------------------------------------------------------------
+r238 | wangq150@UTORONTO.CA | 2018-07-02 17:18:46 -0400 (Mon, 02 Jul 2018) | 2 lines
+
+more man fix --wangq150
+
+------------------------------------------------------------------------
+r237 | wangq150@UTORONTO.CA | 2018-07-02 17:18:02 -0400 (Mon, 02 Jul 2018) | 2 lines
+
+repaired man --wangq150
+
+------------------------------------------------------------------------
+r236 | wangq150@UTORONTO.CA | 2018-07-02 17:07:36 -0400 (Mon, 02 Jul 2018) | 1 line
+
+update on invalid file/directory names --wangq150
+------------------------------------------------------------------------
+r235 | wangz442@UTORONTO.CA | 2018-07-02 16:59:45 -0400 (Mon, 02 Jul 2018) | 1 line
+
+edit comment
+------------------------------------------------------------------------
+r234 | wangz442@UTORONTO.CA | 2018-07-02 16:17:22 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add java doc and edit manual
+------------------------------------------------------------------------
+r233 | songzhif@UTORONTO.CA | 2018-07-02 13:19:08 -0400 (Mon, 02 Jul 2018) | 1 line
+
+fix function naming conventions
+------------------------------------------------------------------------
+r232 | songzhif@UTORONTO.CA | 2018-07-02 13:15:22 -0400 (Mon, 02 Jul 2018) | 1 line
+
+correct the method name conventions
+------------------------------------------------------------------------
+r231 | songzhif@UTORONTO.CA | 2018-07-02 13:12:36 -0400 (Mon, 02 Jul 2018) | 1 line
+
+fix methodNotFound exception
+------------------------------------------------------------------------
+r230 | songzhif@UTORONTO.CA | 2018-07-02 13:03:23 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add logErr in execute
+------------------------------------------------------------------------
+r229 | songzhif@UTORONTO.CA | 2018-07-02 12:39:34 -0400 (Mon, 02 Jul 2018) | 1 line
+
+change the collaborators
+------------------------------------------------------------------------
+r228 | songzhif@UTORONTO.CA | 2018-07-02 12:32:52 -0400 (Mon, 02 Jul 2018) | 1 line
+
+make method name to verb. and recover the Exit method
+------------------------------------------------------------------------
+r227 | songzhif@UTORONTO.CA | 2018-07-02 11:58:47 -0400 (Mon, 02 Jul 2018) | 1 line
+
+add JShell.logError()
+------------------------------------------------------------------------
+r226 | songzhif@UTORONTO.CA | 2018-07-02 11:56:05 -0400 (Mon, 02 Jul 2018) | 2 lines
+
+remove log function name(java naming conventions)
+
+------------------------------------------------------------------------
+r225 | songzhif@UTORONTO.CA | 2018-07-02 11:25:36 -0400 (Mon, 02 Jul 2018) | 1 line
+
+combined with JShell
+------------------------------------------------------------------------
+r224 | songzhif@UTORONTO.CA | 2018-07-02 11:25:25 -0400 (Mon, 02 Jul 2018) | 1 line
+
+combined with Exit
+------------------------------------------------------------------------
+r223 | songzhif@UTORONTO.CA | 2018-07-02 11:24:59 -0400 (Mon, 02 Jul 2018) | 1 line
+
+combined with JShell
+------------------------------------------------------------------------
+r222 | songzhif@UTORONTO.CA | 2018-07-02 11:17:27 -0400 (Mon, 02 Jul 2018) | 4 lines
+
+remove unnecessary function "getCommand()" simplify the code 
+remove unnecessary variables PARUM & COMM 
+remove the commanded code
+
+------------------------------------------------------------------------
+r221 | songzhif@UTORONTO.CA | 2018-07-02 02:46:16 -0400 (Mon, 02 Jul 2018) | 1 line
+
+correct the error for pushd and popd
+------------------------------------------------------------------------
+r220 | wangq150@UTORONTO.CA | 2018-07-02 02:32:25 -0400 (Mon, 02 Jul 2018) | 3 lines
+
+Some modification on push/popd
+little modification on MOCK
+--wangq150
+------------------------------------------------------------------------
+r219 | songzhif@UTORONTO.CA | 2018-07-02 02:07:28 -0400 (Mon, 02 Jul 2018) | 2 lines
+
+changed for pushd/popd
+
+------------------------------------------------------------------------
+r218 | songzhif@UTORONTO.CA | 2018-07-02 02:04:50 -0400 (Mon, 02 Jul 2018) | 1 line
+
+change for pushd/popd
+------------------------------------------------------------------------
+r217 | songzhif@UTORONTO.CA | 2018-07-02 02:03:04 -0400 (Mon, 02 Jul 2018) | 1 line
+
+finished the pushd and popd
+------------------------------------------------------------------------
+r216 | xuxinzhe@UTORONTO.CA | 2018-07-02 01:57:51 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added comments and Javadoc to Tree class
+------------------------------------------------------------------------
+r215 | xuxinzhe@UTORONTO.CA | 2018-07-02 01:39:45 -0400 (Mon, 02 Jul 2018) | 1 line
+
+deleted NewCommandExample
+------------------------------------------------------------------------
+r214 | xuxinzhe@UTORONTO.CA | 2018-07-02 01:36:35 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added comments and Javadoc to History and Pwd classes
+------------------------------------------------------------------------
+r213 | xuxinzhe@UTORONTO.CA | 2018-07-02 01:21:57 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added comments and javadoc to the History class
+------------------------------------------------------------------------
+r212 | xuxinzhe@UTORONTO.CA | 2018-07-02 00:42:18 -0400 (Mon, 02 Jul 2018) | 1 line
+
+updated JShell class
+------------------------------------------------------------------------
+r211 | wangq150@UTORONTO.CA | 2018-07-02 00:29:32 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fixed ls --wangq150
+------------------------------------------------------------------------
+r210 | wangq150@UTORONTO.CA | 2018-07-01 23:53:15 -0400 (Sun, 01 Jul 2018) | 3 lines
+
+small fix on command class
+used reflection in man --wangq150
+
+------------------------------------------------------------------------
+r209 | wangq150@UTORONTO.CA | 2018-07-01 23:36:12 -0400 (Sun, 01 Jul 2018) | 1 line
+
+repaired line break error in echo --wangq150
+------------------------------------------------------------------------
+r208 | wangq150@UTORONTO.CA | 2018-07-01 23:35:45 -0400 (Sun, 01 Jul 2018) | 1 line
+
+ls finished --wangq150
+------------------------------------------------------------------------
+r207 | wangz442@UTORONTO.CA | 2018-07-01 23:18:32 -0400 (Sun, 01 Jul 2018) | 1 line
+
+find one bug
+------------------------------------------------------------------------
+r206 | songzhif@UTORONTO.CA | 2018-07-01 21:05:22 -0400 (Sun, 01 Jul 2018) | 1 line
+
+add sprint
+------------------------------------------------------------------------
+r205 | xuxinzhe@UTORONTO.CA | 2018-07-01 20:01:16 -0400 (Sun, 01 Jul 2018) | 1 line
+
+updated Command, History, Tree and MOCK
+------------------------------------------------------------------------
+r204 | xuxinzhe@UTORONTO.CA | 2018-07-01 18:52:41 -0400 (Sun, 01 Jul 2018) | 1 line
+
+updated sprint 3 backlog
+------------------------------------------------------------------------
+r203 | xuxinzhe@UTORONTO.CA | 2018-07-01 18:09:19 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated JShell and History classes
+------------------------------------------------------------------------
+r202 | xuxinzhe@UTORONTO.CA | 2018-07-01 17:20:19 -0400 (Sun, 01 Jul 2018) | 1 line
+
+added ArrayList to store inputs and methods for future uses
+------------------------------------------------------------------------
+r201 | wangz442@UTORONTO.CA | 2018-06-29 23:54:21 -0400 (Fri, 29 Jun 2018) | 1 line
+
+delete one extra daily scrum meeting file
+------------------------------------------------------------------------
+r200 | wangz442@UTORONTO.CA | 2018-06-29 23:51:43 -0400 (Fri, 29 Jun 2018) | 1 line
+
+add one more task to do
+------------------------------------------------------------------------
+r199 | wangz442@UTORONTO.CA | 2018-06-29 23:47:32 -0400 (Fri, 29 Jun 2018) | 2 lines
+
+add output for man method
+
+------------------------------------------------------------------------
+r198 | wangz442@UTORONTO.CA | 2018-06-29 23:42:40 -0400 (Fri, 29 Jun 2018) | 1 line
+
+finish man 
+------------------------------------------------------------------------
+r197 | wangz442@UTORONTO.CA | 2018-06-29 23:16:47 -0400 (Fri, 29 Jun 2018) | 1 line
+
+finish all ls function
+------------------------------------------------------------------------
+r196 | wangq150@UTORONTO.CA | 2018-06-29 21:49:22 -0400 (Fri, 29 Jun 2018) | 3 lines
+
+Renamed my Sprint mettings
+new meeting
+--wangq150
+------------------------------------------------------------------------
+r195 | xuxinzhe@UTORONTO.CA | 2018-06-29 19:52:00 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Xinzheng Xu's new daily scrum meeting text file
+------------------------------------------------------------------------
+r194 | wangz442@UTORONTO.CA | 2018-06-29 19:44:46 -0400 (Fri, 29 Jun 2018) | 1 line
+
+delete one useless "if" statement
+------------------------------------------------------------------------
+r193 | xuxinzhe@UTORONTO.CA | 2018-06-29 19:41:21 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Complete sprint 3 backlog
+------------------------------------------------------------------------
+r192 | wangz442@UTORONTO.CA | 2018-06-29 16:15:36 -0400 (Fri, 29 Jun 2018) | 2 lines
+
+add Exception CRC card
+
+------------------------------------------------------------------------
+r191 | wangz442@UTORONTO.CA | 2018-06-29 16:12:18 -0400 (Fri, 29 Jun 2018) | 2 lines
+
+add several subclasses for Command
+
+------------------------------------------------------------------------
+r190 | wangz442@UTORONTO.CA | 2018-06-29 15:38:59 -0400 (Fri, 29 Jun 2018) | 1 line
+
+add daily scrum meeting June29
+------------------------------------------------------------------------
+r189 | wangz442@UTORONTO.CA | 2018-06-29 15:37:56 -0400 (Fri, 29 Jun 2018) | 2 lines
+
+add sprint3 backlog
+
+------------------------------------------------------------------------
+r188 | wangz442@UTORONTO.CA | 2018-06-29 15:12:29 -0400 (Fri, 29 Jun 2018) | 1 line
+
+add one more case for ls multiple target folders
+------------------------------------------------------------------------
+r187 | wangz442@UTORONTO.CA | 2018-06-29 14:22:54 -0400 (Fri, 29 Jun 2018) | 1 line
+
+add ls other parts
+------------------------------------------------------------------------
+r186 | wangq150@UTORONTO.CA | 2018-06-29 13:43:12 -0400 (Fri, 29 Jun 2018) | 3 lines
+
+made echo append line with linebreak
+small improvement on cat
+--wangq150
+------------------------------------------------------------------------
+r185 | wangq150@UTORONTO.CA | 2018-06-29 01:58:01 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Finally fixed Find --wangq150
+------------------------------------------------------------------------
+r184 | wangq150@UTORONTO.CA | 2018-06-29 01:35:44 -0400 (Fri, 29 Jun 2018) | 1 line
+
+wrong files, sorry --wangq150
+------------------------------------------------------------------------
+r183 | songzhif@UTORONTO.CA | 2018-06-29 01:32:39 -0400 (Fri, 29 Jun 2018) | 1 line
+
+fix empty input error
+------------------------------------------------------------------------
+r182 | songzhif@UTORONTO.CA | 2018-06-29 01:30:17 -0400 (Fri, 29 Jun 2018) | 1 line
+
+fix empty input exception
+------------------------------------------------------------------------
+r181 | wangq150@UTORONTO.CA | 2018-06-29 01:27:07 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Repaired find's check input method --wangq150
+------------------------------------------------------------------------
+r180 | wangq150@UTORONTO.CA | 2018-06-29 01:10:25 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Some fix on checkInput() --wangq150
+------------------------------------------------------------------------
+r179 | wangq150@UTORONTO.CA | 2018-06-29 01:00:10 -0400 (Fri, 29 Jun 2018) | 1 line
+
+fixed bug on Cd --wangq150
+------------------------------------------------------------------------
+r178 | songzhif@UTORONTO.CA | 2018-06-29 01:00:10 -0400 (Fri, 29 Jun 2018) | 1 line
+
+edit the print string
+------------------------------------------------------------------------
+r177 | songzhif@UTORONTO.CA | 2018-06-29 00:53:33 -0400 (Fri, 29 Jun 2018) | 1 line
+
+add the method call(Execute)
+------------------------------------------------------------------------
+r176 | songzhif@UTORONTO.CA | 2018-06-29 00:41:02 -0400 (Fri, 29 Jun 2018) | 1 line
+
+remove getParaNum()
+------------------------------------------------------------------------
+r175 | songzhif@UTORONTO.CA | 2018-06-29 00:39:11 -0400 (Fri, 29 Jun 2018) | 1 line
+
+remove getParaNum()
+------------------------------------------------------------------------
+r174 | songzhif@UTORONTO.CA | 2018-06-29 00:35:39 -0400 (Fri, 29 Jun 2018) | 1 line
+
+edit the checkInput, bug fix
+------------------------------------------------------------------------
+r173 | wangq150@UTORONTO.CA | 2018-06-29 00:29:45 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Formatted my code -- wangq150
+------------------------------------------------------------------------
+r172 | songzhif@UTORONTO.CA | 2018-06-29 00:25:28 -0400 (Fri, 29 Jun 2018) | 1 line
+
+add the function support the input with quotes
+------------------------------------------------------------------------
+r171 | wangz442@UTORONTO.CA | 2018-06-28 20:29:36 -0400 (Thu, 28 Jun 2018) | 1 line
+
+add main body of execute()
+------------------------------------------------------------------------
+r170 | wangq150@UTORONTO.CA | 2018-06-28 03:00:18 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Removed some unused imports. --wangq150
+------------------------------------------------------------------------
+r169 | wangz442@UTORONTO.CA | 2018-06-27 00:06:44 -0400 (Wed, 27 Jun 2018) | 1 line
+
+delete one redundant code
+------------------------------------------------------------------------
+r168 | wangz442@UTORONTO.CA | 2018-06-27 00:02:46 -0400 (Wed, 27 Jun 2018) | 2 lines
+
+add the check input
+
+------------------------------------------------------------------------
+r167 | wangz442@UTORONTO.CA | 2018-06-27 00:01:29 -0400 (Wed, 27 Jun 2018) | 1 line
+
+add Man check input
+------------------------------------------------------------------------
+r166 | songzhif@UTORONTO.CA | 2018-06-26 23:57:57 -0400 (Tue, 26 Jun 2018) | 1 line
+
+finished the sprint meeting report on time
+------------------------------------------------------------------------
+r165 | wangz442@UTORONTO.CA | 2018-06-26 23:54:32 -0400 (Tue, 26 Jun 2018) | 1 line
+
+add daily scrum meeting 3
+------------------------------------------------------------------------
+r164 | wangq150@UTORONTO.CA | 2018-06-26 23:44:27 -0400 (Tue, 26 Jun 2018) | 1 line
+
+my sprint log --wangq150
+------------------------------------------------------------------------
+r163 | wangq150@UTORONTO.CA | 2018-06-26 23:41:11 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Little fix on Find --wangq150
+------------------------------------------------------------------------
+r162 | songzhif@UTORONTO.CA | 2018-06-26 23:41:06 -0400 (Tue, 26 Jun 2018) | 1 line
+
+correct runClassMethod
+------------------------------------------------------------------------
+r161 | wangq150@UTORONTO.CA | 2018-06-26 23:39:47 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Find command finished --wangq150
+------------------------------------------------------------------------
+r160 | songzhif@UTORONTO.CA | 2018-06-26 23:38:42 -0400 (Tue, 26 Jun 2018) | 2 lines
+
+add a runClassMethod method
+
+------------------------------------------------------------------------
+r159 | wangz442@UTORONTO.CA | 2018-06-26 23:38:06 -0400 (Tue, 26 Jun 2018) | 1 line
+
+delete the exception 
+------------------------------------------------------------------------
+r158 | songzhif@UTORONTO.CA | 2018-06-26 23:14:56 -0400 (Tue, 26 Jun 2018) | 1 line
+
+add example function
+------------------------------------------------------------------------
+r157 | wangq150@UTORONTO.CA | 2018-06-26 22:57:49 -0400 (Tue, 26 Jun 2018) | 3 lines
+
+Somethings about the new argument validation abstract method, on classes I am working on
+Modification of MOCK's get path of
+--wangq150
+------------------------------------------------------------------------
+r156 | xuxinzhe@UTORONTO.CA | 2018-06-26 22:19:22 -0400 (Tue, 26 Jun 2018) | 1 line
+
+added print and logerr functions to History and added new meeting text file
+------------------------------------------------------------------------
+r155 | wangz442@UTORONTO.CA | 2018-06-26 14:35:24 -0400 (Tue, 26 Jun 2018) | 1 line
+
+add wrong input exception
+------------------------------------------------------------------------
+r154 | wangz442@UTORONTO.CA | 2018-06-26 14:15:34 -0400 (Tue, 26 Jun 2018) | 1 line
+
+add Man.java
+------------------------------------------------------------------------
+r153 | wangq150@UTORONTO.CA | 2018-06-24 18:34:27 -0400 (Sun, 24 Jun 2018) | 1 line
+
+Added exception crc cards. --wangq150
+------------------------------------------------------------------------
+r152 | wangq150@UTORONTO.CA | 2018-06-24 18:12:45 -0400 (Sun, 24 Jun 2018) | 2 lines
+
+Little bug fix for MOCK, oops --wangq150
+
+------------------------------------------------------------------------
+r151 | wangq150@UTORONTO.CA | 2018-06-24 18:01:57 -0400 (Sun, 24 Jun 2018) | 2 lines
+
+Reworked on MOCK's file storage(hashmap now)
+--wangq150
+------------------------------------------------------------------------
+r150 | songzhif@UTORONTO.CA | 2018-06-24 17:53:40 -0400 (Sun, 24 Jun 2018) | 1 line
+
+finished the auto argument checker
+------------------------------------------------------------------------
+r149 | songzhif@UTORONTO.CA | 2018-06-24 16:53:47 -0400 (Sun, 24 Jun 2018) | 1 line
+
+made it working (java.lang.reflect)
+------------------------------------------------------------------------
+r148 | songzhif@UTORONTO.CA | 2018-06-24 15:21:20 -0400 (Sun, 24 Jun 2018) | 1 line
+
+create test file to show the example of java.lang.reflect
+------------------------------------------------------------------------
+r147 | songzhif@UTORONTO.CA | 2018-06-24 15:14:40 -0400 (Sun, 24 Jun 2018) | 1 line
+
+remove initialization
+------------------------------------------------------------------------
+r146 | songzhif@UTORONTO.CA | 2018-06-24 15:12:56 -0400 (Sun, 24 Jun 2018) | 1 line
+
+add new command: History
+------------------------------------------------------------------------
+r145 | songzhif@UTORONTO.CA | 2018-06-24 15:12:37 -0400 (Sun, 24 Jun 2018) | 1 line
+
+add new commands: Exit, Popd, Pushd, Tree
+------------------------------------------------------------------------
+r144 | songzhif@UTORONTO.CA | 2018-06-24 15:09:40 -0400 (Sun, 24 Jun 2018) | 1 line
+
+dummy java file shows the structure of the command class
+------------------------------------------------------------------------
+r143 | songzhif@UTORONTO.CA | 2018-06-24 15:05:58 -0400 (Sun, 24 Jun 2018) | 1 line
+
+add checkInput request to Command class
+------------------------------------------------------------------------
+r142 | songzhif@UTORONTO.CA | 2018-06-24 14:46:08 -0400 (Sun, 24 Jun 2018) | 1 line
+
+add checkInput(..)
+------------------------------------------------------------------------
+r141 | songzhif@UTORONTO.CA | 2018-06-24 14:45:43 -0400 (Sun, 24 Jun 2018) | 1 line
+
+add checkInput function as abstract inside Command class
+------------------------------------------------------------------------
+r140 | songzhif@UTORONTO.CA | 2018-06-24 13:56:09 -0400 (Sun, 24 Jun 2018) | 1 line
+
+remove: checkVaildInput(...) LogERR(..)
+------------------------------------------------------------------------
+r139 | songzhif@UTORONTO.CA | 2018-06-24 13:49:17 -0400 (Sun, 24 Jun 2018) | 1 line
+
+rename class name from ls -> Ls
+------------------------------------------------------------------------
+r138 | songzhif@UTORONTO.CA | 2018-06-24 13:48:01 -0400 (Sun, 24 Jun 2018) | 1 line
+
+rename ls.java -> Ls.java
+------------------------------------------------------------------------
+r137 | songzhif@UTORONTO.CA | 2018-06-24 13:44:49 -0400 (Sun, 24 Jun 2018) | 1 line
+
+error fixed: line 43(didn't import ArrayList)
+------------------------------------------------------------------------
+r136 | songzhif@UTORONTO.CA | 2018-06-24 13:32:12 -0400 (Sun, 24 Jun 2018) | 1 line
+
+error fixed: some command file listed as lower cases and some as upper case
+------------------------------------------------------------------------
+r135 | songzhif@UTORONTO.CA | 2018-06-24 13:11:48 -0400 (Sun, 24 Jun 2018) | 3 lines
+
+Correct collaborators
+Correct grammar
+Correct class names
+------------------------------------------------------------------------
+r134 | songzhif@UTORONTO.CA | 2018-06-24 12:59:00 -0400 (Sun, 24 Jun 2018) | 1 line
+
+edit the collaborators, grammar correction
+------------------------------------------------------------------------
+r133 | songzhif@UTORONTO.CA | 2018-06-24 11:53:55 -0400 (Sun, 24 Jun 2018) | 1 line
+
+remove JShell from Collaborators, correct grammar
+------------------------------------------------------------------------
+r132 | songzhif@UTORONTO.CA | 2018-06-24 11:50:23 -0400 (Sun, 24 Jun 2018) | 2 lines
+
+remove Collaborator: JShell
+Because it's parent already collaborate with it
+------------------------------------------------------------------------
+r131 | wangq150@UTORONTO.CA | 2018-06-24 01:19:50 -0400 (Sun, 24 Jun 2018) | 4 lines
+
+Cleaned up import
+Some comment of cat, echo and mkdir
+Basic structure of find
+--wangq150
+------------------------------------------------------------------------
+r130 | wangq150@UTORONTO.CA | 2018-06-23 23:12:49 -0400 (Sat, 23 Jun 2018) | 1 line
+
+Updated CRC Cards --wangq150
+------------------------------------------------------------------------
+r129 | wangq150@UTORONTO.CA | 2018-06-23 02:57:41 -0400 (Sat, 23 Jun 2018) | 4 lines
+
+Basic structure for ls
+Finished Mkdir
+small modification for Cat and MOCK
+--wangq150
+------------------------------------------------------------------------
+r128 | xuxinzhe@UTORONTO.CA | 2018-06-22 23:58:43 -0400 (Fri, 22 Jun 2018) | 1 line
+
+added my scrum meeting text file
+------------------------------------------------------------------------
+r127 | songzhif@UTORONTO.CA | 2018-06-22 23:49:00 -0400 (Fri, 22 Jun 2018) | 1 line
+
+second version of backlog, add detail for e)
+------------------------------------------------------------------------
+r126 | songzhif@UTORONTO.CA | 2018-06-22 23:41:10 -0400 (Fri, 22 Jun 2018) | 1 line
+
+finished in the dailyScrumMeeting during the expected time
+------------------------------------------------------------------------
+r125 | wangz442@UTORONTO.CA | 2018-06-22 23:39:14 -0400 (Fri, 22 Jun 2018) | 1 line
+
+delete string file
+------------------------------------------------------------------------
+r124 | wangz442@UTORONTO.CA | 2018-06-22 23:38:41 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+add println function
+
+------------------------------------------------------------------------
+r123 | songzhif@UTORONTO.CA | 2018-06-22 23:29:16 -0400 (Fri, 22 Jun 2018) | 1 line
+
+finished the first version of sprint backlog 2
+------------------------------------------------------------------------
+r122 | wangz442@UTORONTO.CA | 2018-06-22 23:28:16 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add path for execute()
+------------------------------------------------------------------------
+r121 | wangz442@UTORONTO.CA | 2018-06-22 23:20:20 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add ls command main structure
+------------------------------------------------------------------------
+r120 | wangq150@UTORONTO.CA | 2018-06-22 23:19:56 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+My scrum meeting log --wangq150
+
+------------------------------------------------------------------------
+r119 | wangq150@UTORONTO.CA | 2018-06-22 23:14:40 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Little Update of MOCK's createfile and createDirectory --wang150
+------------------------------------------------------------------------
+r118 | wangz442@UTORONTO.CA | 2018-06-22 23:02:13 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add dailyScrumMeeting Sprint2 
+------------------------------------------------------------------------
+r117 | wangq150@UTORONTO.CA | 2018-06-22 22:46:27 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Renamed ManagementOfControllableKernel to ManagementOfContainerKernel --wangq150
+------------------------------------------------------------------------
+r116 | xuxinzhe@UTORONTO.CA | 2018-06-22 22:03:15 -0400 (Fri, 22 Jun 2018) | 1 line
+
+edited product backlog
+------------------------------------------------------------------------
+r115 | xuxinzhe@UTORONTO.CA | 2018-06-22 21:53:44 -0400 (Fri, 22 Jun 2018) | 1 line
+
+updated pwd!
+------------------------------------------------------------------------
+r114 | songzhif@UTORONTO.CA | 2018-06-22 20:54:35 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+1. add two productBacklog, user want to find and view the file/relation
+2. Time adjustment
+------------------------------------------------------------------------
+r113 | wangq150@UTORONTO.CA | 2018-06-22 20:40:07 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+Should be the finish of echo
+also added Invalid File name exception for MOCK
+------------------------------------------------------------------------
+r112 | wangq150@UTORONTO.CA | 2018-06-22 19:50:27 -0400 (Fri, 22 Jun 2018) | 3 lines
+
+Work on command Echo
+Fix some error in cd and MOCK
+--wangq150
+------------------------------------------------------------------------
+r111 | songzhif@UTORONTO.CA | 2018-06-22 18:58:53 -0400 (Fri, 22 Jun 2018) | 1 line
+
+create Sprint2Backlog on the schedule time
+------------------------------------------------------------------------
+r110 | wangz442@UTORONTO.CA | 2018-06-22 03:33:21 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add student info
+------------------------------------------------------------------------
+r109 | wangz442@UTORONTO.CA | 2018-06-22 03:32:54 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add student info
+------------------------------------------------------------------------
+r108 | wangz442@UTORONTO.CA | 2018-06-22 03:32:06 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+add student info
+
+------------------------------------------------------------------------
+r107 | wangz442@UTORONTO.CA | 2018-06-22 03:30:49 -0400 (Fri, 22 Jun 2018) | 1 line
+
+format the code
+------------------------------------------------------------------------
+r106 | wangz442@UTORONTO.CA | 2018-06-22 03:30:13 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add exception method
+------------------------------------------------------------------------
+r105 | wangz442@UTORONTO.CA | 2018-06-22 02:46:57 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add student info
+------------------------------------------------------------------------
+r104 | wangz442@UTORONTO.CA | 2018-06-22 02:46:34 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add student info
+------------------------------------------------------------------------
+r103 | wangz442@UTORONTO.CA | 2018-06-22 02:46:05 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add student info
+------------------------------------------------------------------------
+r102 | wangz442@UTORONTO.CA | 2018-06-22 02:45:23 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add student info
+------------------------------------------------------------------------
+r101 | wangq150@UTORONTO.CA | 2018-06-22 02:10:26 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+Basic structure of echo.execute
+--wangq150
+------------------------------------------------------------------------
+r100 | wangz442@UTORONTO.CA | 2018-06-22 01:59:04 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add Execute function
+------------------------------------------------------------------------
+r99 | wangz442@UTORONTO.CA | 2018-06-22 01:24:16 -0400 (Fri, 22 Jun 2018) | 1 line
+
+add one case for AbsolutePathOf(), if WD is ""
+------------------------------------------------------------------------
+r98 | wangz442@UTORONTO.CA | 2018-06-21 23:58:22 -0400 (Thu, 21 Jun 2018) | 1 line
+
+delete one test message for document
+------------------------------------------------------------------------
+r97 | songzhif@UTORONTO.CA | 2018-06-21 21:59:43 -0400 (Thu, 21 Jun 2018) | 1 line
+
+add new argument(mock) for each Execute method
+------------------------------------------------------------------------
+r96 | songzhif@UTORONTO.CA | 2018-06-21 20:01:37 -0400 (Thu, 21 Jun 2018) | 1 line
+
+add the ":" to JShell and add constructor for each command
+------------------------------------------------------------------------
+r95 | songzhif@UTORONTO.CA | 2018-06-21 19:37:44 -0400 (Thu, 21 Jun 2018) | 1 line
+
+rewrite JShell
+------------------------------------------------------------------------
+r94 | songzhif@UTORONTO.CA | 2018-06-21 18:49:06 -0400 (Thu, 21 Jun 2018) | 1 line
+
+change the parameter type to int[]
+------------------------------------------------------------------------
+r93 | songzhif@UTORONTO.CA | 2018-06-21 18:40:02 -0400 (Thu, 21 Jun 2018) | 1 line
+
+add LogERR method
+------------------------------------------------------------------------
+r92 | wangq150@UTORONTO.CA | 2018-06-21 17:35:31 -0400 (Thu, 21 Jun 2018) | 2 lines
+
+Reworked Command class, made execute's argument to be Object[]
+--wangq150 
+------------------------------------------------------------------------
+r91 | songzhif@UTORONTO.CA | 2018-06-21 15:00:46 -0400 (Thu, 21 Jun 2018) | 1 line
+
+adjust overall detail
+------------------------------------------------------------------------
+r90 | songzhif@UTORONTO.CA | 2018-06-21 13:02:43 -0400 (Thu, 21 Jun 2018) | 1 line
+
+change Execute argument type from ArrayList to String List
+------------------------------------------------------------------------
+r89 | songzhif@UTORONTO.CA | 2018-06-21 11:24:41 -0400 (Thu, 21 Jun 2018) | 1 line
+
+edit the Execute() doc string
+------------------------------------------------------------------------
+r88 | songzhif@UTORONTO.CA | 2018-06-21 11:22:28 -0400 (Thu, 21 Jun 2018) | 2 lines
+
+add the dummy Execute method into JShell for other members to test their class, for now only support command: Echo Pwd
+the better Initialization method is half finished
+------------------------------------------------------------------------
+r87 | songzhif@UTORONTO.CA | 2018-06-21 11:20:26 -0400 (Thu, 21 Jun 2018) | 1 line
+
+add comment for Execute method, and change the parameter type from ArrayList to String[] for better performance
+------------------------------------------------------------------------
+r86 | songzhif@UTORONTO.CA | 2018-06-21 00:07:31 -0400 (Thu, 21 Jun 2018) | 1 line
+
+remove some comment
+------------------------------------------------------------------------
+r85 | songzhif@UTORONTO.CA | 2018-06-20 22:05:49 -0400 (Wed, 20 Jun 2018) | 1 line
+
+remove unnecessary variable
+------------------------------------------------------------------------
+r84 | wangq150@UTORONTO.CA | 2018-06-20 17:57:22 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Made sure the abstract method has been implemented. 
+------------------------------------------------------------------------
+r83 | xuxinzhe@UTORONTO.CA | 2018-06-20 17:53:09 -0400 (Wed, 20 Jun 2018) | 1 line
+
+committed new version of Command and Pwd
+------------------------------------------------------------------------
+r82 | wangq150@UTORONTO.CA | 2018-06-20 15:41:11 -0400 (Wed, 20 Jun 2018) | 3 lines
+
+Modified some sprint
+Added MoveTo for MOCK
+--wangq150
+------------------------------------------------------------------------
+r81 | wangq150@UTORONTO.CA | 2018-06-20 02:44:54 -0400 (Wed, 20 Jun 2018) | 3 lines
+
+Creation of 3 new exceptions.
+Added some methods for File system to operate.
+--wangq150
+------------------------------------------------------------------------
+r80 | wangq150@UTORONTO.CA | 2018-06-20 00:42:53 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Added some javadoc --wangq150
+------------------------------------------------------------------------
+r79 | songzhif@UTORONTO.CA | 2018-06-20 00:30:03 -0400 (Wed, 20 Jun 2018) | 1 line
+
+edit error
+------------------------------------------------------------------------
+r78 | wangq150@UTORONTO.CA | 2018-06-20 00:25:28 -0400 (Wed, 20 Jun 2018) | 1 line
+
+GetPWD method -- wangq150
+------------------------------------------------------------------------
+r77 | xuxinzhe@UTORONTO.CA | 2018-06-20 00:19:02 -0400 (Wed, 20 Jun 2018) | 1 line
+
+added javadoc in Pwd
+------------------------------------------------------------------------
+r76 | wangq150@UTORONTO.CA | 2018-06-20 00:15:18 -0400 (Wed, 20 Jun 2018) | 3 lines
+
+Added some honor code
+Added some import statement?
+ --wangq150
+------------------------------------------------------------------------
+r75 | songzhif@UTORONTO.CA | 2018-06-20 00:13:42 -0400 (Wed, 20 Jun 2018) | 1 line
+
+add getter for current dir
+------------------------------------------------------------------------
+r74 | xuxinzhe@UTORONTO.CA | 2018-06-20 00:12:58 -0400 (Wed, 20 Jun 2018) | 1 line
+
+added student info in CF and CD
+------------------------------------------------------------------------
+r73 | xuxinzhe@UTORONTO.CA | 2018-06-20 00:10:35 -0400 (Wed, 20 Jun 2018) | 1 line
+
+added student info in MOCK
+------------------------------------------------------------------------
+r72 | xuxinzhe@UTORONTO.CA | 2018-06-20 00:09:15 -0400 (Wed, 20 Jun 2018) | 1 line
+
+added student info in Cd, Command and Echo
+------------------------------------------------------------------------
+r71 | songzhif@UTORONTO.CA | 2018-06-20 00:08:38 -0400 (Wed, 20 Jun 2018) | 1 line
+
+fill in the function
+------------------------------------------------------------------------
+r70 | xuxinzhe@UTORONTO.CA | 2018-06-20 00:02:51 -0400 (Wed, 20 Jun 2018) | 1 line
+
+edited student info in Pwd and JShell
+------------------------------------------------------------------------
+r69 | wangz442@UTORONTO.CA | 2018-06-19 23:58:42 -0400 (Tue, 19 Jun 2018) | 1 line
+
+add manual and execute method for command
+------------------------------------------------------------------------
+r68 | wangq150@UTORONTO.CA | 2018-06-19 23:56:44 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Finished changeCurrDir --wangq150
+------------------------------------------------------------------------
+r67 | wangq150@UTORONTO.CA | 2018-06-19 23:47:54 -0400 (Tue, 19 Jun 2018) | 1 line
+
+JShell Honor code --wangq150
+------------------------------------------------------------------------
+r66 | wangz442@UTORONTO.CA | 2018-06-19 23:47:08 -0400 (Tue, 19 Jun 2018) | 1 line
+
+add DailyScrumMeeting file of Zijian Wang
+------------------------------------------------------------------------
+r65 | xuxinzhe@UTORONTO.CA | 2018-06-19 23:47:00 -0400 (Tue, 19 Jun 2018) | 1 line
+
+added student info
+------------------------------------------------------------------------
+r64 | wangz442@UTORONTO.CA | 2018-06-19 23:42:45 -0400 (Tue, 19 Jun 2018) | 1 line
+
+add ChangeDirectory function for CD
+------------------------------------------------------------------------
+r63 | wangq150@UTORONTO.CA | 2018-06-19 23:36:05 -0400 (Tue, 19 Jun 2018) | 2 lines
+
+Renamed the scrum log --wangq150
+
+------------------------------------------------------------------------
+r62 | wangq150@UTORONTO.CA | 2018-06-19 23:35:09 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Modified MOCK.java --wangq150
+------------------------------------------------------------------------
+r61 | songzhif@UTORONTO.CA | 2018-06-19 23:23:11 -0400 (Tue, 19 Jun 2018) | 1 line
+
+create the container kernel
+------------------------------------------------------------------------
+r60 | wangz442@UTORONTO.CA | 2018-06-19 23:21:30 -0400 (Tue, 19 Jun 2018) | 1 line
+
+add man CRC card
+------------------------------------------------------------------------
+r59 | wangq150@UTORONTO.CA | 2018-06-19 23:21:09 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Re-edited Command.java
+------------------------------------------------------------------------
+r58 | songzhif@UTORONTO.CA | 2018-06-19 23:07:34 -0400 (Tue, 19 Jun 2018) | 1 line
+
+create the command class
+------------------------------------------------------------------------
+r57 | wangq150@UTORONTO.CA | 2018-06-19 22:57:58 -0400 (Tue, 19 Jun 2018) | 2 lines
+
+Command -- Removed the abstract method for commands that does not need arguments
+--wangq150
+------------------------------------------------------------------------
+r56 | wangq150@UTORONTO.CA | 2018-06-19 22:56:20 -0400 (Tue, 19 Jun 2018) | 2 lines
+
+Command -- Added a abstract method for commands that needs arguments
+--wangq150
+------------------------------------------------------------------------
+r55 | songzhif@UTORONTO.CA | 2018-06-19 22:53:41 -0400 (Tue, 19 Jun 2018) | 1 line
+
+remove conflict file
+------------------------------------------------------------------------
+r54 | wangz442@UTORONTO.CA | 2018-06-19 22:51:26 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Delete 1 collaborator of MFile
+------------------------------------------------------------------------
+r53 | wangz442@UTORONTO.CA | 2018-06-19 22:50:54 -0400 (Tue, 19 Jun 2018) | 1 line
+
+delete 1 collaborator of MDirectory
+------------------------------------------------------------------------
+r52 | xuxinzhe@UTORONTO.CA | 2018-06-19 22:50:38 -0400 (Tue, 19 Jun 2018) | 1 line
+
+edited Pwd's crcCard
+------------------------------------------------------------------------
+r51 | songzhif@UTORONTO.CA | 2018-06-19 22:49:03 -0400 (Tue, 19 Jun 2018) | 1 line
+
+create the command class
+------------------------------------------------------------------------
+r50 | xuxinzhe@UTORONTO.CA | 2018-06-19 22:47:20 -0400 (Tue, 19 Jun 2018) | 1 line
+
+added execute and manual methods
+------------------------------------------------------------------------
+r49 | wangz442@UTORONTO.CA | 2018-06-19 22:46:36 -0400 (Tue, 19 Jun 2018) | 2 lines
+
+delete cp crc card
+
+------------------------------------------------------------------------
+r48 | songzhif@UTORONTO.CA | 2018-06-19 22:44:35 -0400 (Tue, 19 Jun 2018) | 1 line
+
+update the basic crc card
+------------------------------------------------------------------------
+r47 | xuxinzhe@UTORONTO.CA | 2018-06-19 22:40:10 -0400 (Tue, 19 Jun 2018) | 1 line
+
+added student info
+------------------------------------------------------------------------
+r46 | wangq150@UTORONTO.CA | 2018-06-19 22:31:46 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Changed Command to abstract and added Manual and Execute abstract methods --wangq150
+------------------------------------------------------------------------
+r45 | wangq150@UTORONTO.CA | 2018-06-19 22:27:29 -0400 (Tue, 19 Jun 2018) | 2 lines
+
+my sprint log -- wangq150
+
+------------------------------------------------------------------------
+r44 | xuxinzhe@UTORONTO.CA | 2018-06-19 22:27:01 -0400 (Tue, 19 Jun 2018) | 1 line
+
+commited command package and Command, Cd, Echo, Pwd classes
+------------------------------------------------------------------------
+r43 | songzhif@UTORONTO.CA | 2018-06-19 22:14:29 -0400 (Tue, 19 Jun 2018) | 1 line
+
+correct my first sprint1 file name
+------------------------------------------------------------------------
+r42 | songzhif@UTORONTO.CA | 2018-06-19 22:12:36 -0400 (Tue, 19 Jun 2018) | 1 line
+
+add my first sprint 1
+------------------------------------------------------------------------
+r41 | xuxinzhe@UTORONTO.CA | 2018-06-19 22:01:25 -0400 (Tue, 19 Jun 2018) | 1 line
+
+edited my plan
+------------------------------------------------------------------------
+r40 | xuxinzhe@UTORONTO.CA | 2018-06-19 21:51:54 -0400 (Tue, 19 Jun 2018) | 2 lines
+
+commited my daily scrum meeting text file
+
+------------------------------------------------------------------------
+r39 | songzhif@UTORONTO.CA | 2018-06-19 21:36:33 -0400 (Tue, 19 Jun 2018) | 1 line
+
+update JShell with finished a-1, a-2, a-3, not a-4
+------------------------------------------------------------------------
+r38 | xuxinzhe@UTORONTO.CA | 2018-06-19 21:34:38 -0400 (Tue, 19 Jun 2018) | 1 line
+
+changed e-3
+------------------------------------------------------------------------
+r37 | xuxinzhe@UTORONTO.CA | 2018-06-19 21:30:02 -0400 (Tue, 19 Jun 2018) | 1 line
+
+corrected grammar problems
+------------------------------------------------------------------------
+r36 | wangq150@UTORONTO.CA | 2018-06-19 21:28:05 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Moved src back to A2 -- wangq150
+------------------------------------------------------------------------
+r35 | xuxinzhe@UTORONTO.CA | 2018-06-19 21:27:50 -0400 (Tue, 19 Jun 2018) | 1 line
+
+corrected words spellings and dates
+------------------------------------------------------------------------
+r33 | songzhif@UTORONTO.CA | 2018-06-19 21:07:53 -0400 (Tue, 19 Jun 2018) | 1 line
+
+add first version of Sprint 1
+------------------------------------------------------------------------
+r32 | songzhif@UTORONTO.CA | 2018-06-19 20:41:28 -0400 (Tue, 19 Jun 2018) | 1 line
+
+change the estimate time and the order of backlog
+------------------------------------------------------------------------
+r31 | songzhif@UTORONTO.CA | 2018-06-14 23:02:41 -0400 (Thu, 14 Jun 2018) | 1 line
+
+last grammar check
+------------------------------------------------------------------------
+r30 | xuxinzhe@UTORONTO.CA | 2018-06-14 22:36:41 -0400 (Thu, 14 Jun 2018) | 1 line
+
+changed back to starter code
+------------------------------------------------------------------------
+r29 | songzhif@UTORONTO.CA | 2018-06-14 22:34:37 -0400 (Thu, 14 Jun 2018) | 1 line
+
+add the final version of the productBacklog
+------------------------------------------------------------------------
+r28 | xuxinzhe@UTORONTO.CA | 2018-06-14 22:33:27 -0400 (Thu, 14 Jun 2018) | 1 line
+
+deleted NormalTest
+------------------------------------------------------------------------
+r27 | xuxinzhe@UTORONTO.CA | 2018-06-14 22:21:29 -0400 (Thu, 14 Jun 2018) | 1 line
+
+deleted FileSystem folder
+------------------------------------------------------------------------
+r26 | xuxinzhe@UTORONTO.CA | 2018-06-14 22:20:26 -0400 (Thu, 14 Jun 2018) | 1 line
+
+deleted all the crc cards
+------------------------------------------------------------------------
+r25 | xuxinzhe@UTORONTO.CA | 2018-06-14 22:15:38 -0400 (Thu, 14 Jun 2018) | 1 line
+
+another new version of product backlog!
+------------------------------------------------------------------------
+r24 | xuxinzhe@UTORONTO.CA | 2018-06-14 22:11:36 -0400 (Thu, 14 Jun 2018) | 1 line
+
+new version of product backlog!
+------------------------------------------------------------------------
+r23 | songzhif@UTORONTO.CA | 2018-06-14 21:46:20 -0400 (Thu, 14 Jun 2018) | 1 line
+
+add product backlog
+------------------------------------------------------------------------
+r22 | songzhif@UTORONTO.CA | 2018-06-14 21:17:09 -0400 (Thu, 14 Jun 2018) | 1 line
+
+add backlog, correct grammar
+------------------------------------------------------------------------
+r21 | wangz442@UTORONTO.CA | 2018-06-14 19:38:15 -0400 (Thu, 14 Jun 2018) | 1 line
+
+delete some blank line in Blocklog
+------------------------------------------------------------------------
+r20 | wangz442@UTORONTO.CA | 2018-06-14 19:24:21 -0400 (Thu, 14 Jun 2018) | 1 line
+
+delete some extra blanks for backlog form.
+------------------------------------------------------------------------
+r19 | wangz442@UTORONTO.CA | 2018-06-14 19:16:21 -0400 (Thu, 14 Jun 2018) | 1 line
+
+add backlog form, change estimate time for task 9,10
+------------------------------------------------------------------------
+r18 | wangq150@UTORONTO.CA | 2018-06-14 18:32:57 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Creation of MOCK file system, as well as a test code file. -- wangq150
+------------------------------------------------------------------------
+r17 | xuxinzhe@UTORONTO.CA | 2018-06-14 01:34:03 -0400 (Thu, 14 Jun 2018) | 1 line
+
+updated student info
+------------------------------------------------------------------------
+r16 | xuxinzhe@UTORONTO.CA | 2018-06-14 01:22:16 -0400 (Thu, 14 Jun 2018) | 1 line
+
+adjusted spaces to look better
+------------------------------------------------------------------------
+r15 | xuxinzhe@UTORONTO.CA | 2018-06-14 00:58:25 -0400 (Thu, 14 Jun 2018) | 1 line
+
+adjusted spaces to look better
+------------------------------------------------------------------------
+r14 | wangz442@UTORONTO.CA | 2018-06-14 00:48:30 -0400 (Thu, 14 Jun 2018) | 1 line
+
+add student2 information
+------------------------------------------------------------------------
+r13 | wangq150@UTORONTO.CA | 2018-06-14 00:28:48 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Initializing JShell.java --wangq150
+------------------------------------------------------------------------
+r12 | xuxinzhe@UTORONTO.CA | 2018-06-13 23:28:19 -0400 (Wed, 13 Jun 2018) | 1 line
+
+first edit of product backlog!
+------------------------------------------------------------------------
+r11 | wangq150@UTORONTO.CA | 2018-06-13 22:34:42 -0400 (Wed, 13 Jun 2018) | 1 line
+
+Put CRC Cards in -- wangq150
+------------------------------------------------------------------------
+r10 | songzhif@UTORONTO.CA | 2018-06-13 21:36:58 -0400 (Wed, 13 Jun 2018) | 1 line
+
+create a backlog txt file with the basic layout
+------------------------------------------------------------------------
+r7 | attarwal@UTORONTO.CA | 2018-06-12 15:51:32 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r6 | attarwal@UTORONTO.CA | 2018-06-12 15:51:30 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r5 | attarwal@UTORONTO.CA | 2018-06-12 15:51:30 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2018-06-12 15:51:29 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2018-06-12 15:51:28 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2018-06-12 15:51:27 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r1 | Markus | 2018-06-12 15:33:25 -0400 (Tue, 12 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+
+
+
+Part 3) +++Work Distribution of Team Members+++
++++ON ALL SOURCE FILES+++
+  12 attarwal@U
+ 944 songzhif@U
+1645 wangq150@U
+ 511 wangz442@U
+ 416 xuxinzhe@U
++++ON CRC CARDS+++
+   9 attarwal@U
+ 102 songzhif@U
+  52 wangq150@U
+  19 wangz442@U
++++ON DAILYSCRUMMEETINGS+++
+  32 attarwal@U
+ 113 songzhif@U
+  54 wangq150@U
+  31 wangz442@U
+  44 xuxinzhe@U
++++ON PRODUCT BACKLOG +++
+  11 attarwal@U
+  28 songzhif@U
+  38 wangz442@U
+   9 xuxinzhe@U
++++ON SPRINTS+++
+  68 attarwal@U
+  97 songzhif@U
+   3 wangq150@U
+  20 wangz442@U
+  28 xuxinzhe@U
+8007
+Part 4) SVN Commits
+
+
+On Sprints
+   1  attarwal@UTORONTO.CA 
+   4  songzhif@UTORONTO.CA 
+   2  wangq150@UTORONTO.CA 
+   1  wangz442@UTORONTO.CA 
+   5  xuxinzhe@UTORONTO.CA 
+
+
+On CRC Cards
+   1  attarwal@UTORONTO.CA 
+  13  songzhif@UTORONTO.CA 
+   4  wangq150@UTORONTO.CA 
+   7  wangz442@UTORONTO.CA 
+   2  xuxinzhe@UTORONTO.CA 
+
+
+On DailyScrumMeetings
+   1  attarwal@UTORONTO.CA 
+   5  songzhif@UTORONTO.CA 
+   6  wangq150@UTORONTO.CA 
+   6  wangz442@UTORONTO.CA 
+   5  xuxinzhe@UTORONTO.CA 
+
+
+On ProductBacklog
+   1  attarwal@UTORONTO.CA 
+   7  songzhif@UTORONTO.CA 
+   3  wangz442@UTORONTO.CA 
+   6  xuxinzhe@UTORONTO.CA 
+
+
+On source
+   1  attarwal@UTORONTO.CA 
+  74  songzhif@UTORONTO.CA 
+  58  wangq150@UTORONTO.CA 
+  51  wangz442@UTORONTO.CA 
+  30  xuxinzhe@UTORONTO.CA 

@@ -1,0 +1,137 @@
+// **********************************************************
+// Assignment1:
+// Student1:
+// UTORID user_name: songzhif
+// UT Student #: 1004359026
+// Author: Zhifei Song
+//
+// Student2:
+// UTORID user_name: xuxizhe
+// UT Student #: 1004050661
+// Author: Xinzheng Xu
+//
+// Student3:
+// UTORID user_name: wangq150
+// UT Student #: 1004193419
+// Author: Qingtian Wang
+//
+// Student4:
+// UTORID user_name: wangz442
+// UT Student #: 1004154960
+// Author: Zijian Wang
+//
+// Honor Code: I pledge that this program represents my own
+// program code and that I have coded on my own. I received
+// help from no one in designing and debugging my program.
+// I have also read the plagiarism section in the course info
+// sheet of CSC B07 and understand the consequences.
+// *********************************************************
+package command;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import driver.JShell;
+import fileSystem.ManagementOfContainerKernel;
+
+/**
+ * Represents the abstract class Command
+ */
+public abstract class Command {
+  // create the 'MOCK' object that's stores all the variable and path for JShell
+  private static ManagementOfContainerKernel MOCK =
+      new ManagementOfContainerKernel();
+
+  /**
+   * execute method that's force the sub-class have same method
+   * 
+   * @param ManagementOfContainerKernel that's save the all the variable and
+   *        path
+   * @param Object[] that's represents the input arguments
+   * @return none
+   */
+  public abstract void execute(final ManagementOfContainerKernel mock,
+      final Object[] arg);
+
+  /**
+   * getManual method that's force the sub-class have same method
+   * 
+   * @param none
+   * @return none
+   */
+  public abstract void getManual();
+
+  /**
+   * checkArgFormat method that's force the sub-class have same method
+   * 
+   * @param String[] that's represents the input arguments
+   * @return boolean taht's represent the correctness of the arguments
+   */
+  public abstract boolean checkArgFormat(final String[] arg);
+
+  /**
+   * execute method that's assign command to the corresponding class
+   * 
+   * @param String the type of command
+   * @param Object[] that's represents the input arguments
+   * @return none
+   */
+  public static void execute(final String command, final Object[] arg) {
+    // find the class object from string command
+    String commandClass = findClassName(command);
+    // set the default argument correctness is false
+    boolean commandFindedAlsoHaveCorrectArg = false;
+
+    try {
+      // make class object that represent by command variable
+      Class myClass = Class.forName(commandClass);
+      // make the myClass as object to get all the method inside
+      Object commandObject = myClass.newInstance();
+      // get the method and store it as method variable
+      Method checkCommandInputClass =
+          myClass.getDeclaredMethod("checkArgFormat", arg.getClass());
+      // run the checkCommandInputClass method and save the output
+      commandFindedAlsoHaveCorrectArg = (boolean) checkCommandInputClass
+          .invoke(commandObject, new Object[] {arg});
+      // if commandFindedAlsoHaveCorrectArg is true, that means the argument is
+      // correct order
+      if (commandFindedAlsoHaveCorrectArg) {
+        // find execute method from myClass and save that object as method
+        // object
+        Method executeInputClass = myClass.getDeclaredMethod("execute",
+            MOCK.getClass(), Object[].class);
+        // run the execute method to execute the command
+        executeInputClass.invoke(commandObject, new Object[] {MOCK, arg});
+      } else {
+        // log the error message
+        CommandObject.logErr("incorrect argument");
+      }
+    } catch (ClassNotFoundException | NoSuchMethodException
+        | IllegalAccessException | IllegalArgumentException
+        | InvocationTargetException | InstantiationException e) {
+      //e.printStackTrace();
+      JShell.logErr();
+    }
+    // System.out.println("The checkInput() method from " + command
+    // + " class returns: " + commandFindedAlsoHaveCorrectArg);
+  }
+  
+  public static void redirect(String redirectString, String path, Boolean overwrite) {
+    // TODO Auto-generated method stub
+    System.out.println(redirectString.substring(0, redirectString.length() - 1) + " | " + path + " | " + overwrite);
+    System.out.println(redirectString.substring(0, redirectString.length()) + " | " + path + " | " + overwrite);
+
+  }
+
+  /**
+   * A method to find the class name of any input
+   * 
+   * @param String a string represent input
+   * @return return "command." + input.substring(0, 1).toUpperCase() +
+   *         input.substring(1);
+   */
+  public static String findClassName(String input) {
+    return "command." + input.substring(0, 1).toUpperCase()
+        + input.substring(1);
+  }
+
+}

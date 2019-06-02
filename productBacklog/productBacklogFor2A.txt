@@ -1,0 +1,75 @@
++=====+====================================================================================+============+
+|     |Backlog Item                                                                        |  Estimate  |
+|     |                                                                                    |   (Days)   |
++=====+====================================================================================+============+
+|     |                                                                                    |            |
+|  1  |As a user, I want to press enter to execute current line of command                 |     2      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  2  |As a user, I want to quit the program                                               |     0.5    |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want to change the current working directory to another directory by   |            |
+|  3  |giving a relative path or a full path or . or ..                                    |     1      |
+|     |										           |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  4  |As a user, I want to print the whole path of the current working directory          |     0.5    | 
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  5  |As a user, I want to create a new directory by giving a relative path or a full path|     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  6  |As a user, I want to view the list of files in the current working directory        |     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want to save the current working directory by pushing onto directory   |            |
+|  7  |stack and then changes the new current working directory by giving a relative       |     2      |
+|     |path or a full path                                                                 |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want to print out my recent commands, and truncate the output by       |            |    
+|  8  |specifying a non-negative number                                                    |     2      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want to display the contents of files by giving relative paths or full |            |
+|  9  |paths                                                                               |     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want to print a string on the shell, or put the string in an existent  |            |
+|  10 |or nonexistent file, or append the string to an existent or nonexistent file, by    |     2      |
+|     |giving a relative path or a full path                                               |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  11 |As a user, I want to print documentation for specific commands                      |     1      | 
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  12 |As a user, I want to use absolute path whenever I want to read or modify a          |     1      |
+|     |file/folder                                                                         |            |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |                                                                                    |            |
+|  13 |As a user, I don't want to see any exception, only suitable message allowed         |     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want my command to be identified no matter how many extra              |            |
+|  14 |spaces I type in                                                                    |     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|     |As a user, I want to use keyboard input command by "command argument argument..."   |            |
+|  15 |in that order                                                                       |     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|  16 |As a user, I want to find item(s) by using path(s) with given file name and         |            |
+|     |file type                                                                           |     1      |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+
+|  17 |As an user, my intention is to view subfile/folder as simple as possible,           |            |
+|     |presenting the entire file relation as a tree, which every subfile/folder is at the |            |
+|     |right bottom of its parent, subfile/folder in the same level meaning they have a    |     1      |
+|     |same parent                                                                         |            |
+|     |                                                                                    |            |
++-----+------------------------------------------------------------------------------------+------------+

@@ -1,0 +1,9 @@
+What did I do last time?
+    - designed new CRC Cards for new classes with teammates
+    - added print and log funtions to History command
+
+What do I plan to do now?
+    - wait for new tasks assigned by scrum leader
+
+Am I blocked on anything?
+    - N/A

@@ -1,0 +1,6 @@
+Class name: Pwd
+Parent class (if any): Command
+Responsibilities:
+	Print the current working directory (including the whole path).
+Collaborators:
+	Command, ManagementOfContainerKernel

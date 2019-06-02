@@ -1,0 +1,12 @@
+What did I do last time?
+    - designed new CRC Cards for new classes with teammates
+    - added print and log funtions to History command class
+    - created new sprint3 backlog with teammates
+
+What do I plan to do now?
+    - declare a History object and collect every command input
+    - display the entire file system as a tree
+    - handle errors
+
+Am I blocked on anything?
+    - wait for tasks f-1 and f-2 to be completed
